@@ -11,7 +11,14 @@ from .world import World
 
 def command_ok(label: str, command: list[str], timeout: int = 30) -> bool:
     try:
-        result = subprocess.run(command, capture_output=True, text=True, timeout=timeout)
+        result = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=timeout,
+        )
     except (OSError, subprocess.TimeoutExpired) as error:
         print(f"FAIL {label}: {type(error).__name__}")
         return False

@@ -57,6 +57,11 @@ class ProviderTests(unittest.TestCase):
         sdk = openai.OpenAI if provider == "openai" else anthropic.Anthropic
         target = "openai.OpenAI" if provider == "openai" else "anthropic.Anthropic"
         env = {"COURSE_MODEL": "student-selected-model", f"{provider.upper()}_API_KEY": "test-only"}
+        if provider == "anthropic":
+            # The SDK checks this location even with an explicit API key.
+            # Keep the isolated test environment valid on Windows, where
+            # pathlib cannot resolve a home directory after clear=True.
+            env["ANTHROPIC_CONFIG_DIR"] = os.path.join(os.getcwd(), ".anthropic-test")
         with patch.dict(os.environ, env, clear=True), patch(target) as factory:
             factory.side_effect = lambda **kw: sdk(
                 **kw, http_client=httpx.Client(transport=httpx.MockTransport(respond))
