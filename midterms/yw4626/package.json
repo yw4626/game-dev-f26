@@ -1,0 +1,20 @@
+{
+  "name": "duskvault-combat-prototype",
+  "version": "0.29.0",
+  "private": true,
+  "description": "Local first-person pixel dungeon and card combat reconstruction prototype",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "start": "node preview.cjs",
+    "test:agents": "node --test tests/player-api.test.cjs",
+    "agent:dev": "node agents/evaluate.cjs --dev",
+    "agent:baseline": "node agents/evaluate.cjs --player scripted",
+    "agent:full": "node agents/evaluate.cjs --full",
+    "agent:gemini": "node agents/evaluate.cjs --player gemini --config agents/gemini.local.json",
+    "agent:compare": "node agents/compare.cjs",
+    "agent:replay": "node agents/replay.cjs",
+    "agent:full:baseline": "node agents/full-evaluate.cjs --scripted",
+    "agent:full:gemini": "node agents/full-evaluate.cjs",
+    "agent:boss": "node agents/boss-evaluate.cjs"
+  }
+}

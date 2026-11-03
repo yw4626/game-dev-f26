@@ -1,0 +1,14 @@
+/* A temporary free reward is visually different from a naturally zero-cost card. */
+.game-card.new-reward-card{border-color:#64c8ff!important;outline:3px solid #2698ed;outline-offset:0;box-shadow:inset 0 0 0 2px #b1e9ff,0 0 0 5px #163b68,3px 5px #121326!important}
+.game-card.new-reward-card .cost{width:auto;min-width:50px;padding:0 4px;font-size:16px!important;line-height:26px!important;color:#e9faff;background:#174e8b;border:2px solid #8fdbff;box-shadow:2px 2px #112e52;clip-path:none;white-space:nowrap}
+.game-card.new-reward-card .chain-tag{color:#9cddff}
+/* The guardian has the arena to itself. Keep its readable HUD below its feet. */
+#combat-screen #enemies{top:calc(var(--enemy-ground,45%) + var(--formation-readout));transform:translateY(-100%)}
+#combat-screen #enemies .boss-enemy{width:min(66%,440px)}
+#combat-screen #enemies .boss-enemy .enemy-art{width:min(95%,360px);height:calc(100% - var(--formation-readout) + 64px)!important;max-height:330px!important}
+#combat-screen #enemies .boss-enemy .enemy-readout{width:min(100%,260px);border:2px solid #c9a55d}
+#combat-screen #enemies .boss-enemy .enemy-shadow{width:68%;height:14px}
+#combat-screen #enemies .boss-enemy[data-visual="bossBook"] .enemy-art{animation:grimoire-hover 2.8s steps(12) infinite}
+@keyframes grimoire-hover{0%,100%{translate:0 0;scale:1}50%{translate:0 -6px;scale:1.035 1}}
+@media(max-width:760px){#combat-screen #enemies .boss-enemy{width:65%}#combat-screen #enemies .boss-enemy .enemy-art{max-height:240px!important;height:calc(100% - var(--formation-readout) + 35px)!important}.game-card.new-reward-card .cost{min-width:42px;font-size:12px!important}}
+@media(prefers-reduced-motion:reduce){#combat-screen #enemies .boss-enemy[data-visual="bossBook"] .enemy-art{animation:none}}

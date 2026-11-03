@@ -1,0 +1,6 @@
+Kenney Impact Sounds (CC0)
+Original: https://kenney.nl/assets/impact-sounds
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Mirror: https://raw.githubusercontent.com/gdquest-demos/godot-open-rpg/d59f2f71bc046ac53239a4e590861269e7100a36/assets/sfx/
+Mirror attribution: https://raw.githubusercontent.com/gdquest-demos/godot-open-rpg/d59f2f71bc046ac53239a4e590861269e7100a36/CREDITS.md
+Only impactWood_light_002.ogg and impactWood_light_003.ogg are used.

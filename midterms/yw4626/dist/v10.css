@@ -1,0 +1,27 @@
+/* Reward paths retain the same card geometry as combat. */
+.boss-reward-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;max-width:960px;margin:30px auto}
+.boss-reward-option{display:flex;min-height:245px;align-items:center;justify-content:center;flex-direction:column;gap:15px;padding:22px 18px;border:3px solid #b8a361;background:#292536;color:#f0e2bb;box-shadow:5px 5px #100f17;text-align:center}
+.boss-reward-option .pixel-art,.boss-reward-option svg{width:70px;height:70px;image-rendering:pixelated}
+.boss-reward-option strong{font-size:21px}.boss-reward-option span{font-size:15px;line-height:1.5}.boss-reward-option small{color:#bfb4a5;line-height:1.4}.boss-reward-option:disabled{opacity:.48}.boss-reward-option:not(:disabled):hover{border-color:#f8d86e;background:#3a3347;transform:translateY(-3px)}
+body[data-phase="bossreward"] .expedition-heading,body[data-phase="bosscard"] .expedition-heading{display:none}
+@media(max-width:700px){.boss-reward-grid{grid-template-columns:1fr}.boss-reward-option{min-height:170px}}
+
+/* Gold skill cards and typed Wild cards share the exact same card frame. */
+.game-card.skill-card .card-top{background:#b58c28;color:#fff2ba}
+.game-card.skill-card .card-art{background-color:#d6a21e!important;background-image:repeating-conic-gradient(#edc34855 0 25%,transparent 0 50%)!important;background-size:8px 8px!important}
+.game-card.wildcard[data-card-type="Mana"] .card-top{background:#4b1b70}
+.game-card.wildcard[data-card-type="Mana"] .card-art{background-color:#51236b!important}
+.game-card.wildcard[data-card-type="Attack"] .card-top{background:#6d241e}
+.game-card.wildcard[data-card-type="Attack"] .card-art{background-color:#89291e!important}
+.game-card.wildcard[data-card-type="Defense"] .card-top{background:#2979a8}
+.game-card .support-effect{font-size:16px!important;line-height:1.2!important;display:flex;flex-direction:column;justify-content:center;gap:2px}
+.game-card .effect-total{white-space:normal!important;overflow-wrap:anywhere;font-size:11px!important;line-height:1.15!important}
+.game-card.skill-card .card-bottom>span:first-child{color:#ffe082}
+.recipe-index-button{margin-bottom:18px}.recipe-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}.recipe-index-row{border:2px solid #9f8e56;background:#282534;padding:12px}.recipe-index-row>div{display:flex;gap:10px;align-items:center}.recipe-index-row .pixel-art{width:42px;height:42px}.recipe-index-row p{font-size:14px;line-height:1.4}.recipe-index-row small{font-size:12px;color:#bfb8a1}.recipe-unavailable{border-color:#595467;opacity:.68}
+
+.wild-arcana-option{display:flex;gap:10px;justify-content:center;align-items:center;max-width:740px;margin:14px auto 20px;font-size:14px;color:#d3c8a5}.wild-arcana-option input{width:18px;height:18px;accent-color:#d8b952}.bonus-tiles{max-height:240px;overflow-y:auto;scrollbar-width:thin}
+
+@media(min-width:761px){#enemies{top:34px;height:clamp(216px,calc(100% - 340px),340px)}#enemies .enemy-readout{min-height:70px;padding:2px 3px}#enemies .enemy-position{font-size:10px;line-height:11px}#enemies .intent{min-height:16px;padding:0;line-height:14px}#enemies .enemy-stats{line-height:13px;padding:0}#enemies .bar{margin-top:2px}#enemies .enemy-art{max-height:164px;width:min(100%,190px)}#enemies .enemy[data-row="1"]:not(.boss-enemy) .enemy-art{width:min(95%,170px);max-height:154px}#enemies .boss-enemy .enemy-art{max-height:180px;width:min(100%,215px)}}
+
+/* Keep the hover lift below the reserved hand instruction strip. */
+#hand .game-card:hover:not(:disabled),#hand .game-card:focus-visible{transform:translateY(-2px)}

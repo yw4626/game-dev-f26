@@ -1,0 +1,33 @@
+✔ final budget persists reserved costs across runner restarts and rejects excess without sending (14.9398ms)
+full-test-1: http_429, retry 1 in 5s; total $0.0000
+full-test-1: http_429, retry 1 in 5s; total $0.0000
+full-test-1: http_429, retry 2 in 10s; total $0.0000
+✔ recorded temporary failures retry same decision; cost and requests retained, no scripted fallback (43.6047ms)
+✔ repeated valid actions terminate as explicit stagnation; never replaced with scripted choices (133.5772ms)
+✔ persistent HTTP failures stop at the declared retry ceiling and preserve each attempt (38.5266ms)
+✔ trusted spectator receives detached render snapshots, never included in public observation (4.0539ms)
+✔ viewer replays exact engine state, rewinds, rejects paths and non-read requests (20.6821ms)
+✔ viewer tolerates partial status writes and a batch being created without hiding existing runs (14.2649ms)
+✔ viewer keeps partial UTF-8 trace records until complete and tolerates partial status during playback (12.4396ms)
+✔ five operations deterministic reset; observations are detached; wrong roles rejected (27.5599ms)
+✔ observation and legal-action allowlists omit RNG, draws, raw assets, future rewards and sealed loot (3.3062ms)
+✔ stale/forged/extra-field actions cannot mutate game state, and invalid allowance terminates (3.6408ms)
+✔ navigation counts primitive steps; final allowed decision executes before truncation (7.1199ms)
+✔ genuine regression: DEV-B no longer loops between merchant and removal altar (79.6486ms)
+✔ full five-floor autonomous path terminates successfully using only public inputs (336.6933ms)
+✔ bounded history changes only public history, not observations or actions (5.6206ms)
+✔ runner counts failed provider calls and terminates without fallback (mock, not live) (6.6311ms)
+✔ runner model-call limit prevents further calls (mock) (5.1017ms)
+✔ malformed model output consumes call AND invalid budget (mock) (4.248ms)
+✔ Gemini sends structured public input only, parses action, accounts thinking tokens (mock) (14.8389ms)
+✔ cost guard sends no request; timeout reserves unknown cost and never leaks key (mock) (6.0027ms)
+✔ episode wall timeout prevents calls and AbortSignal cancels a pending provider request (mock) (28.4634ms)
+✔ attack extras and support descriptions use the actual public card effects (0.4746ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 756.9063

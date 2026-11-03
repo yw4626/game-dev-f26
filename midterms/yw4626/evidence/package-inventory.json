@@ -1,0 +1,2046 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 60
+  },
+  {
+    "path": "AGENT-TEAM.md",
+    "bytes": 2544
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 1282
+  },
+  {
+    "path": "AREA_V13_NATIVE.md",
+    "bytes": 7750
+  },
+  {
+    "path": "ATTACK_PATTERNS_NATIVE.md",
+    "bytes": 9806
+  },
+  {
+    "path": "BATTLE_ZONES_EVIDENCE.md",
+    "bytes": 5107
+  },
+  {
+    "path": "CHARACTERS_V14_NATIVE.md",
+    "bytes": 3841
+  },
+  {
+    "path": "CHARACTER_CONFIG_EVIDENCE.md",
+    "bytes": 5226
+  },
+  {
+    "path": "CHARACTER_EVOLUTION_NATIVE.md",
+    "bytes": 10541
+  },
+  {
+    "path": "COMBAT_V9_IMPLEMENTATION.md",
+    "bytes": 6348
+  },
+  {
+    "path": "COMBO_VISUALS.md",
+    "bytes": 2751
+  },
+  {
+    "path": "COURSE-READINESS.md",
+    "bytes": 13521
+  },
+  {
+    "path": "EFFECT_CONSUMERS_V10_NATIVE.md",
+    "bytes": 11163
+  },
+  {
+    "path": "ENEMY_LAYOUT_V10.md",
+    "bytes": 2090
+  },
+  {
+    "path": "ENEMY_WAVES_V12.md",
+    "bytes": 6839
+  },
+  {
+    "path": "EVALUATION.md",
+    "bytes": 3806
+  },
+  {
+    "path": "EVOLUTION_V10_CONFIG_EVIDENCE.md",
+    "bytes": 7950
+  },
+  {
+    "path": "EVOLUTION_VALUES_AUDIT.md",
+    "bytes": 6103
+  },
+  {
+    "path": "EXPLORATION_EVIDENCE.md",
+    "bytes": 6805
+  },
+  {
+    "path": "EXPLORATION_SYSTEMS_EVIDENCE.md",
+    "bytes": 10889
+  },
+  {
+    "path": "EXTRA_CARD_V7_EVIDENCE.md",
+    "bytes": 5662
+  },
+  {
+    "path": "FINAL-PROTOCOL.md",
+    "bytes": 2712
+  },
+  {
+    "path": "FULL_EVALUATION.md",
+    "bytes": 8640
+  },
+  {
+    "path": "GEM_CARD_CONFIG_EVIDENCE.md",
+    "bytes": 8489
+  },
+  {
+    "path": "GEM_NATIVE_EVIDENCE.md",
+    "bytes": 11293
+  },
+  {
+    "path": "HAND_V11_NATIVE.md",
+    "bytes": 7046
+  },
+  {
+    "path": "HUMAN-EVIDENCE-PENDING.md",
+    "bytes": 1314
+  },
+  {
+    "path": "IMPLEMENTATION_V10.md",
+    "bytes": 5136
+  },
+  {
+    "path": "IMPLEMENTATION_V11.md",
+    "bytes": 2898
+  },
+  {
+    "path": "IMPLEMENTATION_V12.md",
+    "bytes": 4930
+  },
+  {
+    "path": "IMPLEMENTATION_V14.md",
+    "bytes": 2596
+  },
+  {
+    "path": "IMPLEMENTATION_V15.md",
+    "bytes": 3680
+  },
+  {
+    "path": "IMPLEMENTATION_V16.md",
+    "bytes": 3586
+  },
+  {
+    "path": "IMPLEMENTATION_V17.md",
+    "bytes": 3302
+  },
+  {
+    "path": "IMPLEMENTATION_V18.md",
+    "bytes": 3056
+  },
+  {
+    "path": "IMPLEMENTATION_V19.md",
+    "bytes": 2367
+  },
+  {
+    "path": "IMPLEMENTATION_V20.md",
+    "bytes": 5405
+  },
+  {
+    "path": "IMPLEMENTATION_V22.md",
+    "bytes": 3851
+  },
+  {
+    "path": "IMPLEMENTATION_V23.md",
+    "bytes": 3833
+  },
+  {
+    "path": "IMPLEMENTATION_V24.md",
+    "bytes": 4221
+  },
+  {
+    "path": "IMPLEMENTATION_V25.md",
+    "bytes": 3131
+  },
+  {
+    "path": "IMPLEMENTATION_V26.md",
+    "bytes": 2737
+  },
+  {
+    "path": "IMPLEMENTATION_V27.md",
+    "bytes": 5148
+  },
+  {
+    "path": "LARGE_MAP_EVIDENCE.md",
+    "bytes": 7735
+  },
+  {
+    "path": "LEVEL_CONFIG_EVIDENCE.md",
+    "bytes": 8662
+  },
+  {
+    "path": "LEVEL_NATIVE_EVIDENCE.md",
+    "bytes": 5916
+  },
+  {
+    "path": "LIBRARY_VISUALS.md",
+    "bytes": 2863
+  },
+  {
+    "path": "MAP_CONFIG_EVIDENCE.md",
+    "bytes": 9025
+  },
+  {
+    "path": "package.json",
+    "bytes": 899
+  },
+  {
+    "path": "PICKUP_CONFIG_EVIDENCE.md",
+    "bytes": 7773
+  },
+  {
+    "path": "PICKUP_NATIVE_EVIDENCE.md",
+    "bytes": 10122
+  },
+  {
+    "path": "preview.cjs",
+    "bytes": 2684
+  },
+  {
+    "path": "README.md",
+    "bytes": 3532
+  },
+  {
+    "path": "ROOM_LAYOUT_NATIVE_EVIDENCE.md",
+    "bytes": 11526
+  },
+  {
+    "path": "ROOM_SCALE_V9.md",
+    "bytes": 4431
+  },
+  {
+    "path": "ROOM_TEMPLATE_EVIDENCE.md",
+    "bytes": 7042
+  },
+  {
+    "path": "RULE-SOURCES.md",
+    "bytes": 2124
+  },
+  {
+    "path": "SPECIAL_EFFECTS_V12_NATIVE.md",
+    "bytes": 12695
+  },
+  {
+    "path": "THIRD_PARTY_ASSETS.md",
+    "bytes": 7668
+  },
+  {
+    "path": "VALIDATION.md",
+    "bytes": 49983
+  },
+  {
+    "path": "WILD_ACQUISITION_V10_NATIVE.md",
+    "bytes": 16523
+  },
+  {
+    "path": "WILD_CARD_NATIVE.md",
+    "bytes": 4916
+  },
+  {
+    "path": "agents/boss-evaluate.cjs",
+    "bytes": 4934
+  },
+  {
+    "path": "agents/ci.workflow.example.yml",
+    "bytes": 725
+  },
+  {
+    "path": "agents/compare.cjs",
+    "bytes": 2634
+  },
+  {
+    "path": "agents/environment.cjs",
+    "bytes": 17040
+  },
+  {
+    "path": "agents/evaluate.cjs",
+    "bytes": 12224
+  },
+  {
+    "path": "agents/final-evaluate.cjs",
+    "bytes": 4887
+  },
+  {
+    "path": "agents/final-full-suite.json",
+    "bytes": 1338
+  },
+  {
+    "path": "agents/final-memory-suite.json",
+    "bytes": 1045
+  },
+  {
+    "path": "agents/final-report.cjs",
+    "bytes": 3589
+  },
+  {
+    "path": "agents/frozen-implementation.json",
+    "bytes": 721
+  },
+  {
+    "path": "agents/full-evaluate.cjs",
+    "bytes": 12031
+  },
+  {
+    "path": "agents/full-report.cjs",
+    "bytes": 13742
+  },
+  {
+    "path": "agents/full-suite.json",
+    "bytes": 1357
+  },
+  {
+    "path": "agents/gemini.cjs",
+    "bytes": 6974
+  },
+  {
+    "path": "agents/gemini.example.json",
+    "bytes": 520
+  },
+  {
+    "path": "agents/player-prompt.txt",
+    "bytes": 4696
+  },
+  {
+    "path": "agents/progress-guard.cjs",
+    "bytes": 1145
+  },
+  {
+    "path": "agents/protocol.md",
+    "bytes": 8471
+  },
+  {
+    "path": "agents/README.md",
+    "bytes": 8056
+  },
+  {
+    "path": "agents/replay.cjs",
+    "bytes": 2688
+  },
+  {
+    "path": "agents/scripted.cjs",
+    "bytes": 4263
+  },
+  {
+    "path": "agents/skill-use.md",
+    "bytes": 8754
+  },
+  {
+    "path": "agents/suite.json",
+    "bytes": 849
+  },
+  {
+    "path": "agents/vertex-auth.cjs",
+    "bytes": 1345
+  },
+  {
+    "path": "agents/vertex.example.json",
+    "bytes": 571
+  },
+  {
+    "path": "agents/watch-runtime.cjs",
+    "bytes": 3875
+  },
+  {
+    "path": "agents/watch-server.cjs",
+    "bytes": 5290
+  },
+  {
+    "path": "agents/skills/evaluate-players/SKILL.md",
+    "bytes": 1524
+  },
+  {
+    "path": "dist/ai-watch.css",
+    "bytes": 1664
+  },
+  {
+    "path": "dist/ai-watch.js",
+    "bytes": 7489
+  },
+  {
+    "path": "dist/app.js",
+    "bytes": 120648
+  },
+  {
+    "path": "dist/attack-patterns.js",
+    "bytes": 17332
+  },
+  {
+    "path": "dist/audio-samples.js",
+    "bytes": 22699
+  },
+  {
+    "path": "dist/battle-roster.js",
+    "bytes": 393
+  },
+  {
+    "path": "dist/boss-rules.js",
+    "bytes": 10500
+  },
+  {
+    "path": "dist/boss-test.js",
+    "bytes": 2041
+  },
+  {
+    "path": "dist/boss-ui.js",
+    "bytes": 10833
+  },
+  {
+    "path": "dist/boss-v28.css",
+    "bytes": 2200
+  },
+  {
+    "path": "dist/catalog.js",
+    "bytes": 8488
+  },
+  {
+    "path": "dist/characters-evolution.js",
+    "bytes": 75825
+  },
+  {
+    "path": "dist/characters-v14.js",
+    "bytes": 9246
+  },
+  {
+    "path": "dist/combat-clarity.css",
+    "bytes": 8286
+  },
+  {
+    "path": "dist/combat-fx.js",
+    "bytes": 11920
+  },
+  {
+    "path": "dist/combat-motion.js",
+    "bytes": 3066
+  },
+  {
+    "path": "dist/combat-specials.js",
+    "bytes": 14846
+  },
+  {
+    "path": "dist/combat-v12.css",
+    "bytes": 10464
+  },
+  {
+    "path": "dist/combat-v17.css",
+    "bytes": 1815
+  },
+  {
+    "path": "dist/combo-fx.js",
+    "bytes": 1650
+  },
+  {
+    "path": "dist/composition-v26.css",
+    "bytes": 3635
+  },
+  {
+    "path": "dist/creature-detail-v27.js",
+    "bytes": 539439
+  },
+  {
+    "path": "dist/dungeon-view.js",
+    "bytes": 41796
+  },
+  {
+    "path": "dist/dungeon.js",
+    "bytes": 6090
+  },
+  {
+    "path": "dist/effects-v10.js",
+    "bytes": 15255
+  },
+  {
+    "path": "dist/encounter-v27.css",
+    "bytes": 1774
+  },
+  {
+    "path": "dist/encounter-v27.js",
+    "bytes": 3013
+  },
+  {
+    "path": "dist/encounters.js",
+    "bytes": 7476
+  },
+  {
+    "path": "dist/enemy-turn-fx.js",
+    "bytes": 6576
+  },
+  {
+    "path": "dist/enemy-turn-motion.js",
+    "bytes": 1285
+  },
+  {
+    "path": "dist/enemy-turn-v18.css",
+    "bytes": 4901
+  },
+  {
+    "path": "dist/engine.js",
+    "bytes": 43860
+  },
+  {
+    "path": "dist/evolution-v10.js",
+    "bytes": 863128
+  },
+  {
+    "path": "dist/extra-card-v7.js",
+    "bytes": 64240
+  },
+  {
+    "path": "dist/extra-cards-v7.js",
+    "bytes": 44753
+  },
+  {
+    "path": "dist/extra-cards.js",
+    "bytes": 62923
+  },
+  {
+    "path": "dist/floor-themes.js",
+    "bytes": 2847
+  },
+  {
+    "path": "dist/game-audio.js",
+    "bytes": 7088
+  },
+  {
+    "path": "dist/garden-sky.js",
+    "bytes": 1839
+  },
+  {
+    "path": "dist/gem-catalog.js",
+    "bytes": 299709
+  },
+  {
+    "path": "dist/gem-flow.css",
+    "bytes": 1115
+  },
+  {
+    "path": "dist/gem-flow.js",
+    "bytes": 4395
+  },
+  {
+    "path": "dist/gem-shapes.css",
+    "bytes": 1640
+  },
+  {
+    "path": "dist/gem-shapes.js",
+    "bytes": 6900
+  },
+  {
+    "path": "dist/gems.js",
+    "bytes": 4589
+  },
+  {
+    "path": "dist/gothic-assets.js",
+    "bytes": 408229
+  },
+  {
+    "path": "dist/gothic-v25.css",
+    "bytes": 2421
+  },
+  {
+    "path": "dist/hand-layout.js",
+    "bytes": 1556
+  },
+  {
+    "path": "dist/hand-v11.css",
+    "bytes": 4588
+  },
+  {
+    "path": "dist/index.html",
+    "bytes": 18341
+  },
+  {
+    "path": "dist/library.css",
+    "bytes": 16152
+  },
+  {
+    "path": "dist/locale.js",
+    "bytes": 47083
+  },
+  {
+    "path": "dist/loot-fx.js",
+    "bytes": 5786
+  },
+  {
+    "path": "dist/loot-v16.css",
+    "bytes": 2424
+  },
+  {
+    "path": "dist/pickup-catalog.js",
+    "bytes": 9691
+  },
+  {
+    "path": "dist/pile-fx.js",
+    "bytes": 7842
+  },
+  {
+    "path": "dist/piles-v23.css",
+    "bytes": 3080
+  },
+  {
+    "path": "dist/pixel-art-v10.js",
+    "bytes": 11550
+  },
+  {
+    "path": "dist/pixel-assets.js",
+    "bytes": 13381
+  },
+  {
+    "path": "dist/pixel-font.css",
+    "bytes": 755964
+  },
+  {
+    "path": "dist/pixel-skin.css",
+    "bytes": 23381
+  },
+  {
+    "path": "dist/pixel.css",
+    "bytes": 27372
+  },
+  {
+    "path": "dist/pixelfx-manifest.js",
+    "bytes": 2857
+  },
+  {
+    "path": "dist/pixelfx-player.js",
+    "bytes": 8247
+  },
+  {
+    "path": "dist/pixelfx-v22.css",
+    "bytes": 1940
+  },
+  {
+    "path": "dist/presentation.css",
+    "bytes": 17784
+  },
+  {
+    "path": "dist/progression-catalog.js",
+    "bytes": 532593
+  },
+  {
+    "path": "dist/room-layout.js",
+    "bytes": 19657
+  },
+  {
+    "path": "dist/room-templates.js",
+    "bytes": 39665
+  },
+  {
+    "path": "dist/run.js",
+    "bytes": 70824
+  },
+  {
+    "path": "dist/style.css",
+    "bytes": 29354
+  },
+  {
+    "path": "dist/surface-detail-v26.js",
+    "bytes": 4155
+  },
+  {
+    "path": "dist/systems-v14.css",
+    "bytes": 1343
+  },
+  {
+    "path": "dist/theme-assets.js",
+    "bytes": 121360
+  },
+  {
+    "path": "dist/theme-surfaces.js",
+    "bytes": 4739
+  },
+  {
+    "path": "dist/themes-v24.css",
+    "bytes": 1769
+  },
+  {
+    "path": "dist/tutorial-ui.js",
+    "bytes": 9442
+  },
+  {
+    "path": "dist/tutorial.css",
+    "bytes": 3433
+  },
+  {
+    "path": "dist/tutorial.js",
+    "bytes": 10020
+  },
+  {
+    "path": "dist/unified-assets-v26.js",
+    "bytes": 502436
+  },
+  {
+    "path": "dist/v10.css",
+    "bytes": 3662
+  },
+  {
+    "path": "dist/vitals-pixel.css",
+    "bytes": 1597
+  },
+  {
+    "path": "dist/wild-balance-v20.js",
+    "bytes": 1622
+  },
+  {
+    "path": "dist/wild-cards.js",
+    "bytes": 2882
+  },
+  {
+    "path": "dist/wild-v10.js",
+    "bytes": 207470
+  },
+  {
+    "path": "dist/world-gen.js",
+    "bytes": 5996
+  },
+  {
+    "path": "dist/world-v15.css",
+    "bytes": 2187
+  },
+  {
+    "path": "dist/assets/ui-heart.svg",
+    "bytes": 32513
+  },
+  {
+    "path": "dist/assets/ui-mana.svg",
+    "bytes": 40543
+  },
+  {
+    "path": "dist/assets/ui-shield-pixel.svg",
+    "bytes": 396
+  },
+  {
+    "path": "dist/assets/audio/impactWood_light_002.ogg",
+    "bytes": 8447
+  },
+  {
+    "path": "dist/assets/audio/impactWood_light_003.ogg",
+    "bytes": 8462
+  },
+  {
+    "path": "dist/assets/audio/SOURCE.txt",
+    "bytes": 466
+  },
+  {
+    "path": "dist/assets/fonts/ark-pixel.woff2",
+    "bytes": 566768
+  },
+  {
+    "path": "dist/assets/gothic-v25/bossBook.png",
+    "bytes": 6083
+  },
+  {
+    "path": "dist/assets/gothic-v25/bossPlant.png",
+    "bytes": 6154
+  },
+  {
+    "path": "dist/assets/gothic-v25/bossPrisoner.png",
+    "bytes": 8511
+  },
+  {
+    "path": "dist/assets/gothic-v25/bossRat.png",
+    "bytes": 6817
+  },
+  {
+    "path": "dist/assets/gothic-v25/bossVampire.png",
+    "bytes": 5825
+  },
+  {
+    "path": "dist/assets/gothic-v25/cellarBug.png",
+    "bytes": 2469
+  },
+  {
+    "path": "dist/assets/gothic-v25/cellarRat.png",
+    "bytes": 2601
+  },
+  {
+    "path": "dist/assets/gothic-v25/cellarSludge.png",
+    "bytes": 2620
+  },
+  {
+    "path": "dist/assets/gothic-v25/cellarSnail.png",
+    "bytes": 3410
+  },
+  {
+    "path": "dist/assets/gothic-v25/cellarSpider.png",
+    "bytes": 2456
+  },
+  {
+    "path": "dist/assets/gothic-v25/gardenBeetle.png",
+    "bytes": 3158
+  },
+  {
+    "path": "dist/assets/gothic-v25/gardenBloom.png",
+    "bytes": 3080
+  },
+  {
+    "path": "dist/assets/gothic-v25/gardenBud.png",
+    "bytes": 2990
+  },
+  {
+    "path": "dist/assets/gothic-v25/gardenLeaf.png",
+    "bytes": 2829
+  },
+  {
+    "path": "dist/assets/gothic-v25/gardenShrub.png",
+    "bytes": 2803
+  },
+  {
+    "path": "dist/assets/gothic-v25/libraryArmor.png",
+    "bytes": 2515
+  },
+  {
+    "path": "dist/assets/gothic-v25/libraryBook.png",
+    "bytes": 3105
+  },
+  {
+    "path": "dist/assets/gothic-v25/libraryCandle.png",
+    "bytes": 2835
+  },
+  {
+    "path": "dist/assets/gothic-v25/librarySpirit.png",
+    "bytes": 3027
+  },
+  {
+    "path": "dist/assets/gothic-v25/libraryWisp.png",
+    "bytes": 2659
+  },
+  {
+    "path": "dist/assets/gothic-v25/manifest.json",
+    "bytes": 8546
+  },
+  {
+    "path": "dist/assets/gothic-v25/mansionDoor.png",
+    "bytes": 22732
+  },
+  {
+    "path": "dist/assets/gothic-v25/prisonConvict.png",
+    "bytes": 2739
+  },
+  {
+    "path": "dist/assets/gothic-v25/prisonDemon.png",
+    "bytes": 2865
+  },
+  {
+    "path": "dist/assets/gothic-v25/prisonGolem.png",
+    "bytes": 2662
+  },
+  {
+    "path": "dist/assets/gothic-v25/prisonGuard.png",
+    "bytes": 2814
+  },
+  {
+    "path": "dist/assets/gothic-v25/prisonRogue.png",
+    "bytes": 2374
+  },
+  {
+    "path": "dist/assets/gothic-v25/sanctumBat.png",
+    "bytes": 1873
+  },
+  {
+    "path": "dist/assets/gothic-v25/sanctumBone.png",
+    "bytes": 3055
+  },
+  {
+    "path": "dist/assets/gothic-v25/sanctumEye.png",
+    "bytes": 2630
+  },
+  {
+    "path": "dist/assets/gothic-v25/sanctumImp.png",
+    "bytes": 2782
+  },
+  {
+    "path": "dist/assets/gothic-v25/sanctumWraith.png",
+    "bytes": 2730
+  },
+  {
+    "path": "dist/assets/kenney/barrel.png",
+    "bytes": 128
+  },
+  {
+    "path": "dist/assets/kenney/bat.png",
+    "bytes": 195
+  },
+  {
+    "path": "dist/assets/kenney/bossDemon.png",
+    "bytes": 217
+  },
+  {
+    "path": "dist/assets/kenney/bossLion.png",
+    "bytes": 232
+  },
+  {
+    "path": "dist/assets/kenney/bossWraith.png",
+    "bytes": 189
+  },
+  {
+    "path": "dist/assets/kenney/button.png",
+    "bytes": 274
+  },
+  {
+    "path": "dist/assets/kenney/chicken.png",
+    "bytes": 239
+  },
+  {
+    "path": "dist/assets/kenney/crate.png",
+    "bytes": 230
+  },
+  {
+    "path": "dist/assets/kenney/ghost.png",
+    "bytes": 189
+  },
+  {
+    "path": "dist/assets/kenney/golem.png",
+    "bytes": 232
+  },
+  {
+    "path": "dist/assets/kenney/icon-armor.png",
+    "bytes": 154
+  },
+  {
+    "path": "dist/assets/kenney/icon-axe.png",
+    "bytes": 200
+  },
+  {
+    "path": "dist/assets/kenney/icon-holyWand.png",
+    "bytes": 173
+  },
+  {
+    "path": "dist/assets/kenney/icon-knife.png",
+    "bytes": 164
+  },
+  {
+    "path": "dist/assets/kenney/icon-thousandEdge.png",
+    "bytes": 166
+  },
+  {
+    "path": "dist/assets/kenney/icon-wand.png",
+    "bytes": 171
+  },
+  {
+    "path": "dist/assets/kenney/lion.png",
+    "bytes": 232
+  },
+  {
+    "path": "dist/assets/kenney/manaPickup.png",
+    "bytes": 182
+  },
+  {
+    "path": "dist/assets/kenney/map.png",
+    "bytes": 223
+  },
+  {
+    "path": "dist/assets/kenney/panel.png",
+    "bytes": 272
+  },
+  {
+    "path": "dist/assets/kenney/pressed.png",
+    "bytes": 256
+  },
+  {
+    "path": "dist/assets/kenney/skeleton.png",
+    "bytes": 206
+  },
+  {
+    "path": "dist/assets/kenney/slime.png",
+    "bytes": 189
+  },
+  {
+    "path": "dist/assets/kenney/treasure.png",
+    "bytes": 196
+  },
+  {
+    "path": "dist/assets/kenney/zombie.png",
+    "bytes": 219
+  },
+  {
+    "path": "dist/assets/licenses/ArkPixel-OFL.txt",
+    "bytes": 4412
+  },
+  {
+    "path": "dist/assets/licenses/Isaiah658-Monsters-CC0.txt",
+    "bytes": 3190
+  },
+  {
+    "path": "dist/assets/licenses/Kenney-PixelUI-CC0.txt",
+    "bytes": 665
+  },
+  {
+    "path": "dist/assets/licenses/Kenney-TinyDungeon-CC0.txt",
+    "bytes": 570
+  },
+  {
+    "path": "dist/assets/licenses/Theme-Assets-V24.txt",
+    "bytes": 1087
+  },
+  {
+    "path": "dist/assets/pixelfx/arcane-arcane-orb.png",
+    "bytes": 323209
+  },
+  {
+    "path": "dist/assets/pixelfx/arcane-mana-burst.png",
+    "bytes": 384637
+  },
+  {
+    "path": "dist/assets/pixelfx/explosions-dirt-explosion.png",
+    "bytes": 486754
+  },
+  {
+    "path": "dist/assets/pixelfx/explosions-plasma-explosion.png",
+    "bytes": 327011
+  },
+  {
+    "path": "dist/assets/pixelfx/explosions-small-explosion.png",
+    "bytes": 527962
+  },
+  {
+    "path": "dist/assets/pixelfx/fire-fireball.png",
+    "bytes": 137509
+  },
+  {
+    "path": "dist/assets/pixelfx/holy-heal.png",
+    "bytes": 135909
+  },
+  {
+    "path": "dist/assets/pixelfx/holy-smite.png",
+    "bytes": 317416
+  },
+  {
+    "path": "dist/assets/pixelfx/ice-ice-shatter.png",
+    "bytes": 215374
+  },
+  {
+    "path": "dist/assets/pixelfx/impacts-blunt-hit.png",
+    "bytes": 81462
+  },
+  {
+    "path": "dist/assets/pixelfx/impacts-hit-spark.png",
+    "bytes": 17838
+  },
+  {
+    "path": "dist/assets/pixelfx/impacts-shield-block.png",
+    "bytes": 103237
+  },
+  {
+    "path": "dist/assets/pixelfx/LICENSE.txt",
+    "bytes": 1093
+  },
+  {
+    "path": "dist/assets/pixelfx/lightning-lightning-strike.png",
+    "bytes": 719776
+  },
+  {
+    "path": "dist/assets/pixelfx/lightning-zap-hit.png",
+    "bytes": 84488
+  },
+  {
+    "path": "dist/assets/pixelfx/melee-claw-swipe.png",
+    "bytes": 41481
+  },
+  {
+    "path": "dist/assets/pixelfx/melee-heavy-cleave.png",
+    "bytes": 257689
+  },
+  {
+    "path": "dist/assets/pixelfx/melee-sword-slash.png",
+    "bytes": 46120
+  },
+  {
+    "path": "dist/assets/pixelfx/melee-whip-crack.png",
+    "bytes": 31491
+  },
+  {
+    "path": "dist/assets/pixelfx/NOTICE.txt",
+    "bytes": 620
+  },
+  {
+    "path": "dist/assets/pixelfx/pickups-collect-burst.png",
+    "bytes": 68421
+  },
+  {
+    "path": "dist/assets/pixelfx/UPSTREAM.txt",
+    "bytes": 109
+  },
+  {
+    "path": "dist/assets/pixelfx/water-splash.png",
+    "bytes": 209950
+  },
+  {
+    "path": "dist/assets/themes/bossBook.png",
+    "bytes": 831
+  },
+  {
+    "path": "dist/assets/themes/bossPlant.png",
+    "bytes": 881
+  },
+  {
+    "path": "dist/assets/themes/bossPrisoner.png",
+    "bytes": 440
+  },
+  {
+    "path": "dist/assets/themes/bossRat.png",
+    "bytes": 681
+  },
+  {
+    "path": "dist/assets/themes/bossVampire.png",
+    "bytes": 664
+  },
+  {
+    "path": "dist/assets/themes/cellarBug.png",
+    "bytes": 798
+  },
+  {
+    "path": "dist/assets/themes/cellarRat.png",
+    "bytes": 625
+  },
+  {
+    "path": "dist/assets/themes/cellarSludge.png",
+    "bytes": 503
+  },
+  {
+    "path": "dist/assets/themes/cellarSnail.png",
+    "bytes": 520
+  },
+  {
+    "path": "dist/assets/themes/cellarSpider.png",
+    "bytes": 443
+  },
+  {
+    "path": "dist/assets/themes/gardenBeetle.png",
+    "bytes": 757
+  },
+  {
+    "path": "dist/assets/themes/gardenBloom.png",
+    "bytes": 731
+  },
+  {
+    "path": "dist/assets/themes/gardenBud.png",
+    "bytes": 330
+  },
+  {
+    "path": "dist/assets/themes/gardenLeaf.png",
+    "bytes": 564
+  },
+  {
+    "path": "dist/assets/themes/gardenShrub.png",
+    "bytes": 439
+  },
+  {
+    "path": "dist/assets/themes/libraryArmor.png",
+    "bytes": 704
+  },
+  {
+    "path": "dist/assets/themes/libraryBook.png",
+    "bytes": 593
+  },
+  {
+    "path": "dist/assets/themes/libraryCandle.png",
+    "bytes": 539
+  },
+  {
+    "path": "dist/assets/themes/librarySpirit.png",
+    "bytes": 661
+  },
+  {
+    "path": "dist/assets/themes/libraryWisp.png",
+    "bytes": 839
+  },
+  {
+    "path": "dist/assets/themes/manifest.json",
+    "bytes": 8252
+  },
+  {
+    "path": "dist/assets/themes/mansionDoor.png",
+    "bytes": 1097
+  },
+  {
+    "path": "dist/assets/themes/prisonConvict.png",
+    "bytes": 299
+  },
+  {
+    "path": "dist/assets/themes/prisonDemon.png",
+    "bytes": 292
+  },
+  {
+    "path": "dist/assets/themes/prisonGolem.png",
+    "bytes": 1320
+  },
+  {
+    "path": "dist/assets/themes/prisonGuard.png",
+    "bytes": 261
+  },
+  {
+    "path": "dist/assets/themes/prisonRogue.png",
+    "bytes": 313
+  },
+  {
+    "path": "dist/assets/themes/sanctumBat.png",
+    "bytes": 985
+  },
+  {
+    "path": "dist/assets/themes/sanctumBone.png",
+    "bytes": 620
+  },
+  {
+    "path": "dist/assets/themes/sanctumEye.png",
+    "bytes": 698
+  },
+  {
+    "path": "dist/assets/themes/sanctumImp.png",
+    "bytes": 849
+  },
+  {
+    "path": "dist/assets/themes/sanctumWraith.png",
+    "bytes": 784
+  },
+  {
+    "path": "dist/assets/unified-v26/ancientTome.png",
+    "bytes": 1687
+  },
+  {
+    "path": "dist/assets/unified-v26/armor.png",
+    "bytes": 1362
+  },
+  {
+    "path": "dist/assets/unified-v26/axe.png",
+    "bytes": 1345
+  },
+  {
+    "path": "dist/assets/unified-v26/bagOfCoins.png",
+    "bytes": 1266
+  },
+  {
+    "path": "dist/assets/unified-v26/barrel.png",
+    "bytes": 1338
+  },
+  {
+    "path": "dist/assets/unified-v26/bible.png",
+    "bytes": 1511
+  },
+  {
+    "path": "dist/assets/unified-v26/bloodyTear.png",
+    "bytes": 1200
+  },
+  {
+    "path": "dist/assets/unified-v26/bossBook.png",
+    "bytes": 2125
+  },
+  {
+    "path": "dist/assets/unified-v26/bossPlant.png",
+    "bytes": 2106
+  },
+  {
+    "path": "dist/assets/unified-v26/bossPrisoner.png",
+    "bytes": 2817
+  },
+  {
+    "path": "dist/assets/unified-v26/bossRat.png",
+    "bytes": 2308
+  },
+  {
+    "path": "dist/assets/unified-v26/bossVampire.png",
+    "bytes": 2023
+  },
+  {
+    "path": "dist/assets/unified-v26/bracer.png",
+    "bytes": 1134
+  },
+  {
+    "path": "dist/assets/unified-v26/bracerCart.png",
+    "bytes": 841
+  },
+  {
+    "path": "dist/assets/unified-v26/camp.png",
+    "bytes": 1164
+  },
+  {
+    "path": "dist/assets/unified-v26/candelabrador.png",
+    "bytes": 930
+  },
+  {
+    "path": "dist/assets/unified-v26/candelabrador1.png",
+    "bytes": 1226
+  },
+  {
+    "path": "dist/assets/unified-v26/candelabrador2.png",
+    "bytes": 1285
+  },
+  {
+    "path": "dist/assets/unified-v26/carrello.png",
+    "bytes": 1425
+  },
+  {
+    "path": "dist/assets/unified-v26/celestial.png",
+    "bytes": 1466
+  },
+  {
+    "path": "dist/assets/unified-v26/cellarBug.png",
+    "bytes": 854
+  },
+  {
+    "path": "dist/assets/unified-v26/cellarRat.png",
+    "bytes": 882
+  },
+  {
+    "path": "dist/assets/unified-v26/cellarSludge.png",
+    "bytes": 904
+  },
+  {
+    "path": "dist/assets/unified-v26/cellarSnail.png",
+    "bytes": 1215
+  },
+  {
+    "path": "dist/assets/unified-v26/cellarSpider.png",
+    "bytes": 876
+  },
+  {
+    "path": "dist/assets/unified-v26/chicken.png",
+    "bytes": 970
+  },
+  {
+    "path": "dist/assets/unified-v26/clockLancet.png",
+    "bytes": 1006
+  },
+  {
+    "path": "dist/assets/unified-v26/clover.png",
+    "bytes": 1228
+  },
+  {
+    "path": "dist/assets/unified-v26/cloverPetal.png",
+    "bytes": 1360
+  },
+  {
+    "path": "dist/assets/unified-v26/coinCard.png",
+    "bytes": 1333
+  },
+  {
+    "path": "dist/assets/unified-v26/coinPurse.png",
+    "bytes": 1269
+  },
+  {
+    "path": "dist/assets/unified-v26/combo.png",
+    "bytes": 1179
+  },
+  {
+    "path": "dist/assets/unified-v26/crate.png",
+    "bytes": 1268
+  },
+  {
+    "path": "dist/assets/unified-v26/cross.png",
+    "bytes": 1160
+  },
+  {
+    "path": "dist/assets/unified-v26/crown.png",
+    "bytes": 1308
+  },
+  {
+    "path": "dist/assets/unified-v26/crown2.png",
+    "bytes": 1685
+  },
+  {
+    "path": "dist/assets/unified-v26/deathSpiral.png",
+    "bytes": 1067
+  },
+  {
+    "path": "dist/assets/unified-v26/duplicator.png",
+    "bytes": 1832
+  },
+  {
+    "path": "dist/assets/unified-v26/eightSparrow.png",
+    "bytes": 1073
+  },
+  {
+    "path": "dist/assets/unified-v26/experienceCrystal.png",
+    "bytes": 950
+  },
+  {
+    "path": "dist/assets/unified-v26/fccAntonio.png",
+    "bytes": 968
+  },
+  {
+    "path": "dist/assets/unified-v26/fccArca.png",
+    "bytes": 966
+  },
+  {
+    "path": "dist/assets/unified-v26/fccImelda.png",
+    "bytes": 1197
+  },
+  {
+    "path": "dist/assets/unified-v26/fccPoe.png",
+    "bytes": 1217
+  },
+  {
+    "path": "dist/assets/unified-v26/fire.png",
+    "bytes": 835
+  },
+  {
+    "path": "dist/assets/unified-v26/gardenBeetle.png",
+    "bytes": 1107
+  },
+  {
+    "path": "dist/assets/unified-v26/gardenBloom.png",
+    "bytes": 1075
+  },
+  {
+    "path": "dist/assets/unified-v26/gardenBud.png",
+    "bytes": 1026
+  },
+  {
+    "path": "dist/assets/unified-v26/gardenLeaf.png",
+    "bytes": 945
+  },
+  {
+    "path": "dist/assets/unified-v26/gardenShrub.png",
+    "bytes": 1068
+  },
+  {
+    "path": "dist/assets/unified-v26/garlic.png",
+    "bytes": 1422
+  },
+  {
+    "path": "dist/assets/unified-v26/gemchest.png",
+    "bytes": 1509
+  },
+  {
+    "path": "dist/assets/unified-v26/heavenSword.png",
+    "bytes": 1048
+  },
+  {
+    "path": "dist/assets/unified-v26/hellfire.png",
+    "bytes": 764
+  },
+  {
+    "path": "dist/assets/unified-v26/hollowHeart.png",
+    "bytes": 1182
+  },
+  {
+    "path": "dist/assets/unified-v26/holyWand.png",
+    "bytes": 1001
+  },
+  {
+    "path": "dist/assets/unified-v26/icon-cat.png",
+    "bytes": 757
+  },
+  {
+    "path": "dist/assets/unified-v26/knife.png",
+    "bytes": 920
+  },
+  {
+    "path": "dist/assets/unified-v26/libraryArmor.png",
+    "bytes": 901
+  },
+  {
+    "path": "dist/assets/unified-v26/libraryBook.png",
+    "bytes": 1104
+  },
+  {
+    "path": "dist/assets/unified-v26/libraryCandle.png",
+    "bytes": 987
+  },
+  {
+    "path": "dist/assets/unified-v26/librarySpirit.png",
+    "bytes": 1072
+  },
+  {
+    "path": "dist/assets/unified-v26/libraryWisp.png",
+    "bytes": 946
+  },
+  {
+    "path": "dist/assets/unified-v26/lightArmor.png",
+    "bytes": 1707
+  },
+  {
+    "path": "dist/assets/unified-v26/lightning.png",
+    "bytes": 1660
+  },
+  {
+    "path": "dist/assets/unified-v26/lightTome.png",
+    "bytes": 1473
+  },
+  {
+    "path": "dist/assets/unified-v26/littleClover.png",
+    "bytes": 1185
+  },
+  {
+    "path": "dist/assets/unified-v26/manaPickup.png",
+    "bytes": 1059
+  },
+  {
+    "path": "dist/assets/unified-v26/manifest.json",
+    "bytes": 24209
+  },
+  {
+    "path": "dist/assets/unified-v26/noFuture.png",
+    "bytes": 1529
+  },
+  {
+    "path": "dist/assets/unified-v26/orologion.png",
+    "bytes": 1570
+  },
+  {
+    "path": "dist/assets/unified-v26/phiera.png",
+    "bytes": 1083
+  },
+  {
+    "path": "dist/assets/unified-v26/phieraggi.png",
+    "bytes": 1565
+  },
+  {
+    "path": "dist/assets/unified-v26/pickup.png",
+    "bytes": 1044
+  },
+  {
+    "path": "dist/assets/unified-v26/prisonConvict.png",
+    "bytes": 915
+  },
+  {
+    "path": "dist/assets/unified-v26/prisonDemon.png",
+    "bytes": 1030
+  },
+  {
+    "path": "dist/assets/unified-v26/prisonGolem.png",
+    "bytes": 946
+  },
+  {
+    "path": "dist/assets/unified-v26/prisonGuard.png",
+    "bytes": 1023
+  },
+  {
+    "path": "dist/assets/unified-v26/prisonRogue.png",
+    "bytes": 862
+  },
+  {
+    "path": "dist/assets/unified-v26/pummarola.png",
+    "bytes": 1220
+  },
+  {
+    "path": "dist/assets/unified-v26/rainbowArmor.png",
+    "bytes": 1579
+  },
+  {
+    "path": "dist/assets/unified-v26/rawMana.png",
+    "bytes": 764
+  },
+  {
+    "path": "dist/assets/unified-v26/removal.png",
+    "bytes": 1297
+  },
+  {
+    "path": "dist/assets/unified-v26/rosary.png",
+    "bytes": 1110
+  },
+  {
+    "path": "dist/assets/unified-v26/rubble.png",
+    "bytes": 1309
+  },
+  {
+    "path": "dist/assets/unified-v26/runetracer.png",
+    "bytes": 1115
+  },
+  {
+    "path": "dist/assets/unified-v26/sanctumBat.png",
+    "bytes": 724
+  },
+  {
+    "path": "dist/assets/unified-v26/sanctumBone.png",
+    "bytes": 986
+  },
+  {
+    "path": "dist/assets/unified-v26/sanctumEye.png",
+    "bytes": 886
+  },
+  {
+    "path": "dist/assets/unified-v26/sanctumImp.png",
+    "bytes": 992
+  },
+  {
+    "path": "dist/assets/unified-v26/sanctumWraith.png",
+    "bytes": 1030
+  },
+  {
+    "path": "dist/assets/unified-v26/shadowPinion.png",
+    "bytes": 1008
+  },
+  {
+    "path": "dist/assets/unified-v26/shop.png",
+    "bytes": 818
+  },
+  {
+    "path": "dist/assets/unified-v26/shovel.png",
+    "bytes": 692
+  },
+  {
+    "path": "dist/assets/unified-v26/skull.png",
+    "bytes": 1516
+  },
+  {
+    "path": "dist/assets/unified-v26/soulEater.png",
+    "bytes": 1086
+  },
+  {
+    "path": "dist/assets/unified-v26/spellbinder.png",
+    "bytes": 1371
+  },
+  {
+    "path": "dist/assets/unified-v26/spinach.png",
+    "bytes": 1154
+  },
+  {
+    "path": "dist/assets/unified-v26/sprig.png",
+    "bytes": 1315
+  },
+  {
+    "path": "dist/assets/unified-v26/stoneMask.png",
+    "bytes": 1485
+  },
+  {
+    "path": "dist/assets/unified-v26/thousandEdge.png",
+    "bytes": 1336
+  },
+  {
+    "path": "dist/assets/unified-v26/tirajisu.png",
+    "bytes": 1587
+  },
+  {
+    "path": "dist/assets/unified-v26/tome.png",
+    "bytes": 1322
+  },
+  {
+    "path": "dist/assets/unified-v26/treasure.png",
+    "bytes": 1256
+  },
+  {
+    "path": "dist/assets/unified-v26/treasureOpen.png",
+    "bytes": 1255
+  },
+  {
+    "path": "dist/assets/unified-v26/unholyVespers.png",
+    "bytes": 1491
+  },
+  {
+    "path": "dist/assets/unified-v26/vacuum.png",
+    "bytes": 1640
+  },
+  {
+    "path": "dist/assets/unified-v26/wand.png",
+    "bytes": 944
+  },
+  {
+    "path": "dist/assets/unified-v26/whip.png",
+    "bytes": 1086
+  },
+  {
+    "path": "dist/assets/unified-v26/wildDefence.png",
+    "bytes": 1590
+  },
+  {
+    "path": "dist/assets/unified-v26/wings.png",
+    "bytes": 1485
+  },
+  {
+    "path": "evaluation/final-v1-2026-11-02/freeze.json",
+    "bytes": 3641
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/manifest.json",
+    "bytes": 2448
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/results.json",
+    "bytes": 4558
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/status.json",
+    "bytes": 1012
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/traces/full-final-antonio-1.jsonl",
+    "bytes": 4669172
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/traces/full-final-antonio-2.jsonl",
+    "bytes": 4669143
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/traces/full-final-arca-1.jsonl",
+    "bytes": 4175770
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/traces/full-final-arca-2.jsonl",
+    "bytes": 4175792
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/traces/full-final-imelda-1.jsonl",
+    "bytes": 5367429
+  },
+  {
+    "path": "evaluation/full-final-v1-full-scripted/traces/full-final-imelda-2.jsonl",
+    "bytes": 5367456
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/manifest.json",
+    "bytes": 2146
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/results.json",
+    "bytes": 4903
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/traces/full-final-antonio-1-stateful-public-history.jsonl",
+    "bytes": 716213
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/traces/full-final-antonio-2-stateful-public-history.jsonl",
+    "bytes": 716215
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/traces/full-final-arca-1-stateful-public-history.jsonl",
+    "bytes": 836130
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/traces/full-final-arca-2-stateful-public-history.jsonl",
+    "bytes": 836131
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/traces/full-final-imelda-1-stateful-public-history.jsonl",
+    "bytes": 1028809
+  },
+  {
+    "path": "evaluation/full-final-v1-memory-scripted/traces/full-final-imelda-2-stateful-public-history.jsonl",
+    "bytes": 1028813
+  },
+  {
+    "path": "evidence/clean-package-tests.txt",
+    "bytes": 42476
+  },
+  {
+    "path": "evidence/EXTERNAL-PROVENANCE.md",
+    "bytes": 579
+  },
+  {
+    "path": "evidence/final-agent-tests.txt",
+    "bytes": 2526
+  },
+  {
+    "path": "evidence/final-baseline-run.txt",
+    "bytes": 3562
+  },
+  {
+    "path": "evidence/final-clean-package-tests.txt",
+    "bytes": 47927
+  },
+  {
+    "path": "evidence/final-independent-review.md",
+    "bytes": 12641
+  },
+  {
+    "path": "evidence/final-live-run.txt",
+    "bytes": 219
+  },
+  {
+    "path": "evidence/final-local-tests.txt",
+    "bytes": 42467
+  },
+  {
+    "path": "evidence/final-review-resolutions.md",
+    "bytes": 1528
+  },
+  {
+    "path": "evidence/final-script-replay.json",
+    "bytes": 5498
+  },
+  {
+    "path": "evidence/independent-skill-benchmark-reverse.json",
+    "bytes": 250
+  },
+  {
+    "path": "evidence/independent-skill-benchmark.json",
+    "bytes": 249
+  },
+  {
+    "path": "evidence/independent-skill-equivalence.json",
+    "bytes": 104
+  },
+  {
+    "path": "evidence/independent-skill-session.md",
+    "bytes": 3568
+  },
+  {
+    "path": "evidence/independent-skill-tests.txt",
+    "bytes": 42380
+  },
+  {
+    "path": "evidence/RENDER-PERFORMANCE-OCCLUSION.md",
+    "bytes": 2401
+  },
+  {
+    "path": "evidence/history/EVALUATION.md",
+    "bytes": 12414
+  },
+  {
+    "path": "evidence/history/FULL_EVALUATION.md",
+    "bytes": 8640
+  },
+  {
+    "path": "skills/game-agent-evaluation/SKILL.md",
+    "bytes": 3328
+  },
+  {
+    "path": "skills/game-event-animation/SKILL.md",
+    "bytes": 2885
+  },
+  {
+    "path": "skills/game-render-performance/SKILL.md",
+    "bytes": 5713
+  },
+  {
+    "path": "skills/game-rule-reconstruction/SKILL.md",
+    "bytes": 2573
+  },
+  {
+    "path": "skills/game-tutorial-flow/SKILL.md",
+    "bytes": 2910
+  },
+  {
+    "path": "skills/pixel-game-ui-polish/SKILL.md",
+    "bytes": 2795
+  },
+  {
+    "path": "tests/acquisition-v10.test.cjs",
+    "bytes": 4407
+  },
+  {
+    "path": "tests/area-depth-v12.test.cjs",
+    "bytes": 4845
+  },
+  {
+    "path": "tests/area-native-v13.test.cjs",
+    "bytes": 5348
+  },
+  {
+    "path": "tests/boss-presentation.test.cjs",
+    "bytes": 2927
+  },
+  {
+    "path": "tests/boss-test-scene.test.cjs",
+    "bytes": 1216
+  },
+  {
+    "path": "tests/boss-v28.test.cjs",
+    "bytes": 7615
+  },
+  {
+    "path": "tests/camp-v23.test.cjs",
+    "bytes": 1754
+  },
+  {
+    "path": "tests/cards-v7.test.cjs",
+    "bytes": 4606
+  },
+  {
+    "path": "tests/characters-evolution.test.cjs",
+    "bytes": 11279
+  },
+  {
+    "path": "tests/characters-v14.test.cjs",
+    "bytes": 3344
+  },
+  {
+    "path": "tests/clock-lancet.test.cjs",
+    "bytes": 2416
+  },
+  {
+    "path": "tests/combat-motion-v17.test.cjs",
+    "bytes": 3231
+  },
+  {
+    "path": "tests/combat-v9.test.cjs",
+    "bytes": 7548
+  },
+  {
+    "path": "tests/consumers-v10.test.cjs",
+    "bytes": 9652
+  },
+  {
+    "path": "tests/dungeon-view.test.cjs",
+    "bytes": 5139
+  },
+  {
+    "path": "tests/dungeon.test.cjs",
+    "bytes": 14384
+  },
+  {
+    "path": "tests/effects-v10.test.cjs",
+    "bytes": 4854
+  },
+  {
+    "path": "tests/enemy-layout.test.cjs",
+    "bytes": 3501
+  },
+  {
+    "path": "tests/enemy-turn-v18.test.cjs",
+    "bytes": 2190
+  },
+  {
+    "path": "tests/enemy-waves-v12.test.cjs",
+    "bytes": 9936
+  },
+  {
+    "path": "tests/engine.test.cjs",
+    "bytes": 10793
+  },
+  {
+    "path": "tests/evolution-v10-config.test.cjs",
+    "bytes": 3779
+  },
+  {
+    "path": "tests/final-budget.test.cjs",
+    "bytes": 1909
+  },
+  {
+    "path": "tests/friendship-v19.test.cjs",
+    "bytes": 5457
+  },
+  {
+    "path": "tests/full-agent.test.cjs",
+    "bytes": 7268
+  },
+  {
+    "path": "tests/fusion-v14.test.cjs",
+    "bytes": 3080
+  },
+  {
+    "path": "tests/gem-flow.test.cjs",
+    "bytes": 2680
+  },
+  {
+    "path": "tests/gem-shapes-v14.test.cjs",
+    "bytes": 1246
+  },
+  {
+    "path": "tests/gems.test.cjs",
+    "bytes": 7497
+  },
+  {
+    "path": "tests/gothic-v25.test.cjs",
+    "bytes": 2662
+  },
+  {
+    "path": "tests/hand-v11.test.cjs",
+    "bytes": 4766
+  },
+  {
+    "path": "tests/journey-v10.test.cjs",
+    "bytes": 6154
+  },
+  {
+    "path": "tests/locale-prompts.test.cjs",
+    "bytes": 2211
+  },
+  {
+    "path": "tests/loot-economy-v21.test.cjs",
+    "bytes": 2680
+  },
+  {
+    "path": "tests/loot-v16.test.cjs",
+    "bytes": 5167
+  },
+  {
+    "path": "tests/pickups.test.cjs",
+    "bytes": 3062
+  },
+  {
+    "path": "tests/pixel-art-v10.test.cjs",
+    "bytes": 1899
+  },
+  {
+    "path": "tests/player-api.test.cjs",
+    "bytes": 9303
+  },
+  {
+    "path": "tests/progression.test.cjs",
+    "bytes": 4479
+  },
+  {
+    "path": "tests/reward-synergy-v11.test.cjs",
+    "bytes": 6179
+  },
+  {
+    "path": "tests/rewards-v10.test.cjs",
+    "bytes": 7851
+  },
+  {
+    "path": "tests/room-zones.test.cjs",
+    "bytes": 8267
+  },
+  {
+    "path": "tests/run-gems.test.cjs",
+    "bytes": 4379
+  },
+  {
+    "path": "tests/run.test.cjs",
+    "bytes": 12577
+  },
+  {
+    "path": "tests/service-progress.test.cjs",
+    "bytes": 4208
+  },
+  {
+    "path": "tests/shop-prices-v21.test.cjs",
+    "bytes": 2268
+  },
+  {
+    "path": "tests/shop-v14.test.cjs",
+    "bytes": 3879
+  },
+  {
+    "path": "tests/simulate-v9.cjs",
+    "bytes": 3881
+  },
+  {
+    "path": "tests/special-effects-v12.test.cjs",
+    "bytes": 7621
+  },
+  {
+    "path": "tests/themes-v24.test.cjs",
+    "bytes": 3987
+  },
+  {
+    "path": "tests/tomato-v28.test.cjs",
+    "bytes": 2485
+  },
+  {
+    "path": "tests/tutorial.test.cjs",
+    "bytes": 7247
+  },
+  {
+    "path": "tests/vertex-auth.test.cjs",
+    "bytes": 1461
+  },
+  {
+    "path": "tests/watch-animation.test.cjs",
+    "bytes": 1536
+  },
+  {
+    "path": "tests/wild-balance-v20.test.cjs",
+    "bytes": 7913
+  },
+  {
+    "path": "tests/wild-v9.test.cjs",
+    "bytes": 6440
+  },
+  {
+    "path": "tests/world-v15.test.cjs",
+    "bytes": 7264
+  }
+]

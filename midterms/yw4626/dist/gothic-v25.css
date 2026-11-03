@@ -1,0 +1,23 @@
+/* Shared logical pixel grids: 64px creatures, 96px guardians. */
+#combat-screen #enemies .enemy-art{width:calc(68px * var(--sprite-pixel,2));height:calc(68px * var(--sprite-pixel,2))!important;max-height:none!important;max-width:none;filter:drop-shadow(2px 3px #0b0c12)}
+#combat-screen #enemies .reserve-enemy .enemy-art{width:calc(68px * var(--sprite-pixel,2) * .78);height:calc(68px * var(--sprite-pixel,2) * .78)!important;filter:brightness(.8) drop-shadow(1px 2px #0b0c12)}
+#combat-screen #enemies .enemy[data-depth="2"] .enemy-art{width:calc(68px * var(--sprite-pixel,2) * .6);height:calc(68px * var(--sprite-pixel,2) * .6)!important;filter:brightness(.7)}
+#combat-screen #enemies .boss-enemy .enemy-art{width:calc(100px * var(--sprite-pixel,2));height:calc(100px * var(--sprite-pixel,2))!important;max-height:none!important}
+#combat-screen #enemies .boss-enemy[data-depth="3"]{z-index:1;width:36%;pointer-events:none}
+#combat-screen #enemies .boss-enemy[data-depth="3"] .enemy-art{bottom:calc(var(--formation-readout) + 100px);width:calc(100px * var(--sprite-pixel,2) * .76);height:calc(100px * var(--sprite-pixel,2) * .76)!important;filter:brightness(.82);opacity:1}
+#combat-screen #enemies .boss-enemy[data-depth="3"] .enemy-shadow{bottom:calc(var(--formation-readout) + 100px);width:42%;opacity:.3}
+.boss-back-label{position:absolute;top:calc(10px - 35px * var(--sprite-pixel,2));left:50%;transform:translateX(-50%);white-space:nowrap;padding:2px 6px;border:1px solid #8d7351;background:#15131ce8;color:#cfbc8d;font-size:12px;line-height:16px}
+#combat-screen #enemies .enemy-readout{background:#14131aed;border-color:#4e4b4d}
+.reference-exploration .parchment-map{background:#b4a076}
+@media(min-width:761px){
+ .reference-exploration{--map-height:clamp(190px,29vh,280px)}
+ .reference-exploration .exploration-dock{width:min(79%,760px);grid-template-columns:minmax(135px,.75fr) minmax(265px,1.35fr)}
+ .reference-exploration .parchment-map .mini-map{height:var(--map-height)}
+ .reference-exploration .library-stage>.explore-message{width:calc(21% - 22px);font-size:12px}
+}
+@media(max-width:760px){
+ .reference-exploration .exploration-dock{grid-template-columns:95px minmax(0,1fr)}
+ .reference-exploration .parchment-map .mini-map{height:280px}
+ .boss-back-label{font-size:10px}
+ #combat-screen #enemies .boss-enemy[data-depth="3"] .enemy-art{bottom:calc(var(--formation-readout) + 60px)}
+}

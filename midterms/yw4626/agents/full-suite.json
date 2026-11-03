@@ -1,0 +1,53 @@
+{
+  "id": "full-five-floors-v3-2026-11-01",
+  "scope": "Six independent live model runs: three character/seed starts, two trials each; defeat the final floor-5 boss. A defeat/limit/provider failure is an outcome, not replaced by a successful retry. v3 declared after user-requested service-loop fixes; interrupted v2 remains separate.",
+  "profile": "demo",
+  "goalFloor": 6,
+  "stepLimit": 15000,
+  "decisionLimit": 6000,
+  "callLimit": 6500,
+  "episodeTimeoutMs": 14400000,
+  "callTimeoutMs": 30000,
+  "invalidLimit": 5,
+  "historyLength": 6,
+  "trials": 2,
+  "memoryModes": [
+    "bounded"
+  ],
+  "retry": {
+    "maxRetries": 4,
+    "initialDelayMs": 5000,
+    "maximumDelayMs": 60000,
+    "codes": [
+      "http_429",
+      "http_500",
+      "http_502",
+      "http_503",
+      "http_504",
+      "call_timeout"
+    ]
+  },
+  "cases": [
+    {
+      "id": "full-whip",
+      "seed": "FULL-V2-A-731",
+      "character": "antonio",
+      "split": "evaluation"
+    },
+    {
+      "id": "full-mage",
+      "seed": "FULL-V2-B-947",
+      "character": "imelda",
+      "split": "evaluation"
+    },
+    {
+      "id": "full-fire-holdout",
+      "seed": "FULL-V2-C-1261",
+      "character": "arca",
+      "split": "holdout"
+    }
+  ],
+  "repetitionWindow": 128,
+  "repetitionWarnAt": 4,
+  "repetitionLimit": 16
+}

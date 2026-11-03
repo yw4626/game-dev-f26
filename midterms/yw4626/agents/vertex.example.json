@@ -1,0 +1,16 @@
+{
+  "provider": "vertex",
+  "project": "YOUR_COURSE_PROJECT_ID",
+  "location": "global",
+  "model": "gemini-3.5-flash-lite",
+  "temperature": 0.2,
+  "maxOutputTokens": 2048,
+  "budgetUSD": 2,
+  "pricing": {
+    "date": "2026-10-31",
+    "source": "https://cloud.google.com/model-garden/pricing",
+    "inputPerMillionUSD": 0.30,
+    "outputPerMillionUSD": 2.50,
+    "note": "Vertex global Standard list prices, per million tokens; output includes reasoning. Non-global pricing differs. Verified from official pricing page on 2026-10-31. Recheck before future runs."
+  }
+}

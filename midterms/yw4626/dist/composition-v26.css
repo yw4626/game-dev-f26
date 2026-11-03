@@ -1,0 +1,25 @@
+/* 32/48px logical placement; v27 supplies 64/96px PNG detail inside these same frames. */
+#combat-screen #enemies{--formation-readout:0px;top:var(--enemy-ground);height:350px;transform:translateY(-100%)}
+#combat-screen #enemies .enemy[data-depth] .enemy-art{bottom:calc(var(--row-rise,0px) - 4px * var(--sprite-pixel,3) * var(--depth-scale,1));width:calc(36px * var(--sprite-pixel,3) * var(--depth-scale,1));height:calc(36px * var(--sprite-pixel,3) * var(--depth-scale,1))!important;max-height:none!important;max-width:none!important;transform-origin:50% 100%;filter:drop-shadow(1px 1px #0b0c12)}
+#combat-screen #enemies .boss-enemy[data-depth] .enemy-art{width:calc(52px * var(--sprite-pixel,3) * var(--depth-scale,1));height:calc(52px * var(--sprite-pixel,3) * var(--depth-scale,1))!important}
+#combat-screen #enemies .boss-enemy[data-depth="3"] .enemy-art{bottom:calc(var(--row-rise) - 4px * var(--sprite-pixel,3) * .76);width:calc(52px * var(--sprite-pixel,3) * .76);height:calc(52px * var(--sprite-pixel,3) * .76)!important;filter:brightness(.88)}
+#combat-screen #enemies .enemy .enemy-shadow{display:block;left:50%;transform:translateX(-50%);bottom:calc(var(--row-rise,0px) - 3px);width:calc(17px * var(--sprite-pixel,3) * var(--depth-scale,1));height:8px;border:0;border-radius:0;background:#080a11;opacity:.5;filter:none;clip-path:polygon(14% 0,86% 0,86% 20%,100% 20%,100% 80%,86% 80%,86% 100%,14% 100%,14% 80%,0 80%,0 20%,14% 20%)}
+#combat-screen #enemies .boss-enemy .enemy-shadow{width:calc(26px * var(--sprite-pixel,3) * var(--depth-scale,1))}
+.boss-back-label,.reserve-marker,.reserve-count,.cast-ribbon{display:none!important}
+#combat-screen #enemies .enemy-readout{display:flex;position:absolute;left:50%;transform:translateX(-50%);bottom:calc(var(--row-rise,0px) - 57px);width:100%;min-height:0;height:48px;padding:0;border:0!important;outline:0;box-shadow:none;background:none!important;gap:0;text-shadow:1px 1px #08080e,-1px -1px #08080e,1px -1px #08080e,-1px 1px #08080e}
+#combat-screen #enemies .enemy-readout .bar{height:2px;min-height:2px;width:64%;margin:2px auto;border:0;background:#19172088;box-shadow:none}
+#combat-screen #enemies .enemy-name,#combat-screen #enemies .enemy-stats,#combat-screen #enemies .intent{background:none!important;border:0!important;box-shadow:none;padding:0}
+.game-card[class][data-card-type] .card-art{image-rendering:pixelated;background:var(--art-ground,#341d22)!important;background-image:repeating-conic-gradient(#ffffff04 0 25%,transparent 0 50%)!important;background-size:4px 4px!important;border-color:#9b8055;box-shadow:inset 0 0 0 2px #17151d}
+.game-card.attack{--art-ground:#4a2223}
+.game-card.skill-card{--art-ground:#745c2e}
+.game-card.mana{--art-ground:#34243e}
+.game-card.armor{--art-ground:#284257}
+.game-card.wildcard{--art-ground:#434b54}
+.game-card.wildcard[data-card-type="Mana"]{--art-ground:#34243e}
+.game-card.wildcard[data-card-type="Attack"]{--art-ground:#4a2223}
+.game-card.wildcard[data-card-type="Special"]{--art-ground:#745c2e}
+.game-card.character{--art-ground:#28413e}
+.game-card .card-art image{image-rendering:pixelated}
+.character-portrait{image-rendering:pixelated}
+.reference-exploration .parchment-map{background-color:#b8a16e;background-image:repeating-conic-gradient(#4b34250a 0 25%,transparent 0 50%);background-size:4px 4px}
+@media(max-width:760px){#combat-screen #enemies{height:240px}#combat-screen #enemies .enemy-readout{bottom:calc(var(--row-rise,0px) - 49px);height:42px}#combat-screen #enemies .enemy-name,#combat-screen #enemies .enemy-stats,#combat-screen #enemies .intent{font-size:10px;line-height:12px}}

@@ -1,0 +1,24 @@
+Five-floor pixel asset sources imported 2026-10-31
+
+50+ Monsters Pack 2D v1.0 by isaiah658
+https://opengameart.org/content/50-monsters-pack-2d
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Original author Credits.txt is included as Isaiah658-Monsters-CC0.txt.
+
+monster plant by ArVexi1050
+https://opengameart.org/content/monster-plant
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Source sprite-0042.png; transparent bounds cropped for presentation.
+
+Pixel Books by Blue
+https://opengameart.org/content/pixel-books
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Source Book_0.png. Edge-connected white canvas made transparent;
+derived guardian adds independently authored magic pages and eyes.
+
+Kenney Tiny Dungeon: see Kenney-TinyDungeon-CC0.txt.
+
+Rat guardian adds authored green corruption growths to isaiah658 monster #23.
+Vampire, giant prisoner, mansion facade and procedural environment surfaces
+are authored for this prototype. Exact paths and hashes are in
+assets/themes/manifest.json. Original downloaded sources remain in art-sources.

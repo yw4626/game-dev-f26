@@ -1,0 +1,1485 @@
+{
+  "generator": "built-in image_gen",
+  "sourceSha256": "fa4eece29728e78fb0ac8903a6cf5dd47e50438ca004dfe80a0fb93649601c21",
+  "propsSourceSha256": "b9f7728478cdff60861ef9d1a458ac8227c356f7e45b425a24985373b03881b5",
+  "logicalSize": 32,
+  "bossSize": 48,
+  "palette": [
+    "#0c0d13",
+    "#17171d",
+    "#232229",
+    "#303039",
+    "#40414a",
+    "#535660",
+    "#6a6d73",
+    "#85868a",
+    "#a7a69f",
+    "#c9c3af",
+    "#e0d7bc",
+    "#292621",
+    "#3c352b",
+    "#514738",
+    "#695b46",
+    "#837057",
+    "#a28c68",
+    "#242a23",
+    "#343b2c",
+    "#4a5139",
+    "#646b46",
+    "#802e37",
+    "#4c202a",
+    "#642631",
+    "#9b4944",
+    "#bf6950",
+    "#57382e",
+    "#784936",
+    "#ab7046",
+    "#cea463",
+    "#5c4b5e",
+    "#817083",
+    "#243044",
+    "#384962",
+    "#536b82",
+    "#7596ab",
+    "#b0ccd0",
+    "#244251",
+    "#326b7a",
+    "#4e9dae",
+    "#7ac5d0",
+    "#b5e6e0",
+    "#193c2f",
+    "#276242",
+    "#428553",
+    "#6fa164",
+    "#a1bd84",
+    "#d3c99b",
+    "#261c35",
+    "#463353",
+    "#695276",
+    "#947a9b",
+    "#a74958",
+    "#d07872",
+    "#edd1a7",
+    "#f4e3bf"
+  ],
+  "roles": [
+    {
+      "key": "icon-whip",
+      "crop": [
+        0,
+        0,
+        157,
+        158
+      ],
+      "file": "whip.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-wand",
+      "crop": [
+        157,
+        0,
+        314,
+        158
+      ],
+      "file": "wand.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-fire",
+      "crop": [
+        314,
+        0,
+        470,
+        158
+      ],
+      "file": "fire.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-axe",
+      "crop": [
+        470,
+        0,
+        627,
+        158
+      ],
+      "file": "axe.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-knife",
+      "crop": [
+        627,
+        0,
+        784,
+        158
+      ],
+      "file": "knife.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-cross",
+      "crop": [
+        784,
+        0,
+        940,
+        158
+      ],
+      "file": "cross.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-bible",
+      "crop": [
+        940,
+        0,
+        1097,
+        158
+      ],
+      "file": "bible.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-garlic",
+      "crop": [
+        1097,
+        0,
+        1254,
+        158
+      ],
+      "file": "garlic.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-runetracer",
+      "crop": [
+        0,
+        158,
+        157,
+        313
+      ],
+      "file": "runetracer.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-lightning",
+      "crop": [
+        157,
+        158,
+        314,
+        313
+      ],
+      "file": "lightning.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-phiera",
+      "crop": [
+        314,
+        158,
+        470,
+        313
+      ],
+      "file": "phiera.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-eightSparrow",
+      "crop": [
+        470,
+        158,
+        627,
+        313
+      ],
+      "file": "eightSparrow.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-shadowPinion",
+      "crop": [
+        627,
+        158,
+        784,
+        313
+      ],
+      "file": "shadowPinion.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-clockLancet",
+      "crop": [
+        784,
+        158,
+        940,
+        313
+      ],
+      "file": "clockLancet.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-carrello",
+      "crop": [
+        940,
+        158,
+        1097,
+        313
+      ],
+      "file": "carrello.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-celestial",
+      "crop": [
+        1097,
+        158,
+        1254,
+        313
+      ],
+      "file": "celestial.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-bloodyTear",
+      "crop": [
+        0,
+        313,
+        157,
+        474
+      ],
+      "file": "bloodyTear.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-holyWand",
+      "crop": [
+        157,
+        313,
+        314,
+        474
+      ],
+      "file": "holyWand.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-hellfire",
+      "crop": [
+        314,
+        313,
+        470,
+        474
+      ],
+      "file": "hellfire.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-deathSpiral",
+      "crop": [
+        470,
+        313,
+        627,
+        474
+      ],
+      "file": "deathSpiral.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-thousandEdge",
+      "crop": [
+        627,
+        313,
+        784,
+        474
+      ],
+      "file": "thousandEdge.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-heavenSword",
+      "crop": [
+        784,
+        313,
+        940,
+        474
+      ],
+      "file": "heavenSword.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-unholyVespers",
+      "crop": [
+        940,
+        313,
+        1097,
+        474
+      ],
+      "file": "unholyVespers.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-soulEater",
+      "crop": [
+        1097,
+        313,
+        1254,
+        474
+      ],
+      "file": "soulEater.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-noFuture",
+      "crop": [
+        0,
+        474,
+        157,
+        629
+      ],
+      "file": "noFuture.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-phieraggi",
+      "crop": [
+        157,
+        474,
+        314,
+        629
+      ],
+      "file": "phieraggi.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-lightArmor",
+      "crop": [
+        314,
+        474,
+        470,
+        629
+      ],
+      "file": "lightArmor.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-armor",
+      "crop": [
+        470,
+        474,
+        627,
+        629
+      ],
+      "file": "armor.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-rainbowArmor",
+      "crop": [
+        627,
+        474,
+        784,
+        629
+      ],
+      "file": "rainbowArmor.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-tome",
+      "crop": [
+        784,
+        474,
+        940,
+        629
+      ],
+      "file": "tome.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-lightTome",
+      "crop": [
+        940,
+        474,
+        1097,
+        629
+      ],
+      "file": "lightTome.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-ancientTome",
+      "crop": [
+        1097,
+        474,
+        1254,
+        629
+      ],
+      "file": "ancientTome.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-candelabrador",
+      "crop": [
+        0,
+        629,
+        157,
+        788
+      ],
+      "file": "candelabrador.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-candelabrador1",
+      "crop": [
+        157,
+        629,
+        314,
+        788
+      ],
+      "file": "candelabrador1.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-candelabrador2",
+      "crop": [
+        314,
+        629,
+        470,
+        788
+      ],
+      "file": "candelabrador2.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-skull",
+      "crop": [
+        470,
+        629,
+        627,
+        788
+      ],
+      "file": "skull.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-crown",
+      "crop": [
+        627,
+        629,
+        784,
+        788
+      ],
+      "file": "crown.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-crown2",
+      "crop": [
+        784,
+        629,
+        940,
+        788
+      ],
+      "file": "crown2.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-spellbinder",
+      "crop": [
+        940,
+        629,
+        1097,
+        788
+      ],
+      "file": "spellbinder.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-duplicator",
+      "crop": [
+        1097,
+        629,
+        1254,
+        788
+      ],
+      "file": "duplicator.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-hollowHeart",
+      "crop": [
+        0,
+        788,
+        157,
+        936
+      ],
+      "file": "hollowHeart.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-pummarola",
+      "crop": [
+        157,
+        788,
+        314,
+        936
+      ],
+      "file": "pummarola.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-spinach",
+      "crop": [
+        314,
+        788,
+        470,
+        936
+      ],
+      "file": "spinach.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-sprig",
+      "crop": [
+        470,
+        788,
+        627,
+        936
+      ],
+      "file": "sprig.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-stoneMask",
+      "crop": [
+        627,
+        788,
+        784,
+        936
+      ],
+      "file": "stoneMask.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-bracer",
+      "crop": [
+        784,
+        788,
+        940,
+        936
+      ],
+      "file": "bracer.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-clover",
+      "crop": [
+        940,
+        788,
+        1097,
+        936
+      ],
+      "file": "clover.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-tirajisu",
+      "crop": [
+        1097,
+        788,
+        1254,
+        936
+      ],
+      "file": "tirajisu.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-wings",
+      "crop": [
+        0,
+        936,
+        157,
+        1077
+      ],
+      "file": "wings.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-bagOfCoins",
+      "crop": [
+        157,
+        936,
+        314,
+        1077
+      ],
+      "file": "bagOfCoins.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-coinPurse",
+      "crop": [
+        314,
+        936,
+        470,
+        1077
+      ],
+      "file": "coinPurse.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-cloverPetal",
+      "crop": [
+        470,
+        936,
+        627,
+        1077
+      ],
+      "file": "cloverPetal.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-littleClover",
+      "crop": [
+        627,
+        936,
+        784,
+        1077
+      ],
+      "file": "littleClover.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-orologion",
+      "crop": [
+        784,
+        936,
+        940,
+        1077
+      ],
+      "file": "orologion.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-rosary",
+      "crop": [
+        940,
+        936,
+        1097,
+        1077
+      ],
+      "file": "rosary.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-vacuum",
+      "crop": [
+        1097,
+        936,
+        1254,
+        1077
+      ],
+      "file": "vacuum.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-coinCard",
+      "crop": [
+        0,
+        1077,
+        157,
+        1254
+      ],
+      "file": "coinCard.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-rawMana",
+      "crop": [
+        157,
+        1077,
+        314,
+        1254
+      ],
+      "file": "rawMana.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-combo",
+      "crop": [
+        314,
+        1077,
+        470,
+        1254
+      ],
+      "file": "combo.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-wildDefence",
+      "crop": [
+        470,
+        1077,
+        627,
+        1254
+      ],
+      "file": "wildDefence.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-fccAntonio",
+      "crop": [
+        627,
+        1077,
+        784,
+        1254
+      ],
+      "file": "fccAntonio.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-fccImelda",
+      "crop": [
+        784,
+        1077,
+        940,
+        1254
+      ],
+      "file": "fccImelda.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-fccArca",
+      "crop": [
+        940,
+        1077,
+        1097,
+        1254
+      ],
+      "file": "fccArca.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-fccPoe",
+      "crop": [
+        1097,
+        1077,
+        1254,
+        1254
+      ],
+      "file": "fccPoe.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "icon-cat",
+      "source": "props-generated.png",
+      "crop": [
+        0,
+        0,
+        314,
+        314
+      ],
+      "file": "icon-cat.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "treasure",
+      "source": "props-generated.png",
+      "crop": [
+        314,
+        0,
+        627,
+        314
+      ],
+      "file": "treasure.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "treasureOpen",
+      "source": "props-generated.png",
+      "crop": [
+        627,
+        0,
+        940,
+        314
+      ],
+      "file": "treasureOpen.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "crate",
+      "source": "props-generated.png",
+      "crop": [
+        940,
+        0,
+        1254,
+        314
+      ],
+      "file": "crate.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "barrel",
+      "source": "props-generated.png",
+      "crop": [
+        0,
+        314,
+        314,
+        627
+      ],
+      "file": "barrel.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "camp",
+      "source": "props-generated.png",
+      "crop": [
+        314,
+        314,
+        627,
+        627
+      ],
+      "file": "camp.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "manaPickup",
+      "source": "props-generated.png",
+      "crop": [
+        627,
+        314,
+        940,
+        627
+      ],
+      "file": "manaPickup.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "pickup",
+      "source": "props-generated.png",
+      "crop": [
+        940,
+        314,
+        1254,
+        627
+      ],
+      "file": "pickup.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "removal",
+      "source": "props-generated.png",
+      "crop": [
+        0,
+        627,
+        314,
+        940
+      ],
+      "file": "removal.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "gemchest",
+      "source": "props-generated.png",
+      "crop": [
+        314,
+        627,
+        627,
+        940
+      ],
+      "file": "gemchest.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "shop",
+      "source": "props-generated.png",
+      "crop": [
+        627,
+        627,
+        940,
+        940
+      ],
+      "file": "shop.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "shovel",
+      "source": "props-generated.png",
+      "crop": [
+        940,
+        627,
+        1254,
+        940
+      ],
+      "file": "shovel.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "rubble",
+      "source": "props-generated.png",
+      "crop": [
+        0,
+        940,
+        314,
+        1254
+      ],
+      "file": "rubble.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "experienceCrystal",
+      "source": "props-generated.png",
+      "crop": [
+        314,
+        940,
+        627,
+        1254
+      ],
+      "file": "experienceCrystal.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "chicken",
+      "source": "props-generated.png",
+      "crop": [
+        627,
+        940,
+        940,
+        1254
+      ],
+      "file": "chicken.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "bracerCart",
+      "source": "props-generated.png",
+      "crop": [
+        940,
+        940,
+        1254,
+        1254
+      ],
+      "file": "bracerCart.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "gardenLeaf",
+      "source": "gothic-v25/gardenLeaf.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "gardenLeaf.png"
+    },
+    {
+      "key": "gardenBloom",
+      "source": "gothic-v25/gardenBloom.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "gardenBloom.png"
+    },
+    {
+      "key": "gardenBeetle",
+      "source": "gothic-v25/gardenBeetle.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "gardenBeetle.png"
+    },
+    {
+      "key": "gardenBud",
+      "source": "gothic-v25/gardenBud.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "gardenBud.png"
+    },
+    {
+      "key": "gardenShrub",
+      "source": "gothic-v25/gardenShrub.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "gardenShrub.png"
+    },
+    {
+      "key": "bossPlant",
+      "source": "gothic-v25/bossPlant.png",
+      "size": [
+        48,
+        48
+      ],
+      "file": "bossPlant.png"
+    },
+    {
+      "key": "libraryBook",
+      "source": "gothic-v25/libraryBook.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "libraryBook.png"
+    },
+    {
+      "key": "libraryCandle",
+      "source": "gothic-v25/libraryCandle.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "libraryCandle.png"
+    },
+    {
+      "key": "libraryWisp",
+      "source": "gothic-v25/libraryWisp.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "libraryWisp.png"
+    },
+    {
+      "key": "libraryArmor",
+      "source": "gothic-v25/libraryArmor.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "libraryArmor.png"
+    },
+    {
+      "key": "librarySpirit",
+      "source": "gothic-v25/librarySpirit.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "librarySpirit.png"
+    },
+    {
+      "key": "bossBook",
+      "source": "gothic-v25/bossBook.png",
+      "size": [
+        48,
+        48
+      ],
+      "file": "bossBook.png"
+    },
+    {
+      "key": "cellarRat",
+      "source": "gothic-v25/cellarRat.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "cellarRat.png"
+    },
+    {
+      "key": "cellarBug",
+      "source": "gothic-v25/cellarBug.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "cellarBug.png"
+    },
+    {
+      "key": "cellarSpider",
+      "source": "gothic-v25/cellarSpider.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "cellarSpider.png"
+    },
+    {
+      "key": "cellarSnail",
+      "source": "gothic-v25/cellarSnail.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "cellarSnail.png"
+    },
+    {
+      "key": "cellarSludge",
+      "source": "gothic-v25/cellarSludge.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "cellarSludge.png"
+    },
+    {
+      "key": "bossRat",
+      "source": "gothic-v25/bossRat.png",
+      "size": [
+        48,
+        48
+      ],
+      "file": "bossRat.png"
+    },
+    {
+      "key": "prisonGuard",
+      "source": "gothic-v25/prisonGuard.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "prisonGuard.png"
+    },
+    {
+      "key": "prisonConvict",
+      "source": "gothic-v25/prisonConvict.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "prisonConvict.png"
+    },
+    {
+      "key": "prisonRogue",
+      "source": "gothic-v25/prisonRogue.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "prisonRogue.png"
+    },
+    {
+      "key": "prisonDemon",
+      "source": "gothic-v25/prisonDemon.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "prisonDemon.png"
+    },
+    {
+      "key": "prisonGolem",
+      "source": "gothic-v25/prisonGolem.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "prisonGolem.png"
+    },
+    {
+      "key": "bossPrisoner",
+      "source": "gothic-v25/bossPrisoner.png",
+      "size": [
+        48,
+        48
+      ],
+      "file": "bossPrisoner.png"
+    },
+    {
+      "key": "sanctumBat",
+      "source": "gothic-v25/sanctumBat.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "sanctumBat.png"
+    },
+    {
+      "key": "sanctumWraith",
+      "source": "gothic-v25/sanctumWraith.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "sanctumWraith.png"
+    },
+    {
+      "key": "sanctumImp",
+      "source": "gothic-v25/sanctumImp.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "sanctumImp.png"
+    },
+    {
+      "key": "sanctumBone",
+      "source": "gothic-v25/sanctumBone.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "sanctumBone.png"
+    },
+    {
+      "key": "sanctumEye",
+      "source": "gothic-v25/sanctumEye.png",
+      "size": [
+        32,
+        32
+      ],
+      "file": "sanctumEye.png"
+    },
+    {
+      "key": "bossVampire",
+      "source": "gothic-v25/bossVampire.png",
+      "size": [
+        48,
+        48
+      ],
+      "file": "bossVampire.png"
+    }
+  ],
+  "aliases": {
+    "draw": "vacuum",
+    "weightyTome": "ancientTome",
+    "armor3": "rainbowArmor",
+    "duDuplicator": "duplicator",
+    "hollowHeart2": "hollowHeart",
+    "pummarola2": "pummarola",
+    "largeBagOfCoins": "bagOfCoins",
+    "littleHeart": "pummarola",
+    "bracelet": "duplicator",
+    "thunderloop": "lightning"
+  }
+}

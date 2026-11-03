@@ -1,0 +1,13 @@
+{
+  "frozenAt": "2026-11-01T03:22:47.347Z",
+  "purpose": "Before formal suite execution; policy tuned only on AGENT-DEV-A/B",
+  "hashes": {
+    "game": "d34cfb7ea9fde5265a1e2e366ad7deda82306be2c3f88b6c4fa7cb8e3e7a92d9",
+    "suite": "4811dcf6564145d2ad31b963d7df8afafffdc67db8e186a75aa4511066e126ad",
+    "interface": "9f6fe1bfebb767a2d65d38f9e437677d119511ec9a2756196cdebb38dce4ad43",
+    "baseline": "1fdbfef64cfc9164b1739b5ee161e2b27522bdfa3273129421057b79ce3ac8a0",
+    "prompt": "3c0fee8a00866aa0b8109c4772ea87f31d072bdba804c0c17d90def820c3c1f1",
+    "runner": "3459cd3eeb11164546cb6f5ebb446ee69db50aa9701d53af767cc194a9a213ae",
+    "adapter": "641c1408407c7f1d4bcaa4aa7e1f244d5df5ec85b86e9d097aff35943729db58"
+  }
+}

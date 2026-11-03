@@ -1,0 +1,24 @@
+name: Midterm yw4626
+on:
+  pull_request:
+    paths: ['midterms/yw4626/**', '.github/workflows/midterm-yw4626.yml']
+  push:
+    branches: ['yw4626/midterm-final']
+    paths: ['midterms/yw4626/**', '.github/workflows/midterm-yw4626.yml']
+permissions:
+  contents: read
+jobs:
+  deterministic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: midterms/yw4626
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm test
+      - run: npm run test:agents
+      - run: node agents/evaluate.cjs --dev --seed CI-DEV-20261102

@@ -1,0 +1,54 @@
+{
+  "id": "final-full-suite-v1-2026-11-02",
+  "scope": "Final v1: complete all five floors and defeat the vampire. Fresh seeds, six bounded-history model episodes and six matched scripted episodes. Historical trials remain separate.",
+  "profile": "demo",
+  "goalFloor": 6,
+  "stepLimit": 15000,
+  "decisionLimit": 6000,
+  "callLimit": 6500,
+  "episodeTimeoutMs": 14400000,
+  "callTimeoutMs": 30000,
+  "invalidLimit": 5,
+  "historyLength": 6,
+  "trials": 2,
+  "memoryModes": [
+    "bounded"
+  ],
+  "retry": {
+    "maxRetries": 4,
+    "initialDelayMs": 5000,
+    "maximumDelayMs": 60000,
+    "codes": [
+      "http_429",
+      "http_500",
+      "http_502",
+      "http_503",
+      "http_504",
+      "call_timeout"
+    ]
+  },
+  "cases": [
+    {
+      "id": "full-final-antonio",
+      "seed": "FINAL-20261102-A-841793",
+      "character": "antonio",
+      "split": "evaluation"
+    },
+    {
+      "id": "full-final-imelda",
+      "seed": "FINAL-20261102-B-592867",
+      "character": "imelda",
+      "split": "evaluation"
+    },
+    {
+      "id": "full-final-arca",
+      "seed": "FINAL-20261102-C-317429",
+      "character": "arca",
+      "split": "holdout"
+    }
+  ],
+  "repetitionWindow": 128,
+  "repetitionWarnAt": 4,
+  "repetitionLimit": 16,
+  "declaredBeforePolicyTuning": true
+}

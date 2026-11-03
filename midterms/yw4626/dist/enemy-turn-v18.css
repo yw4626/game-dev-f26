@@ -1,0 +1,41 @@
+#combat-screen #enemies .enemy-acting{z-index:30!important}
+#combat-screen #enemies[data-attacker]>.enemy:not(.enemy-acting){filter:brightness(.82)}
+#combat-screen #enemies .enemy-acting .enemy-readout{border-color:#ffe59b;background:#42242ce8}
+#combat-screen #enemies .enemy-acting .intent{color:#ffdb91}
+#combat-screen #enemies .enemy-guarding .enemy-readout{border-color:#9cddff;background:#1a3447ed}
+.enemy-action-banner{position:absolute;top:37px;left:50%;transform:translateX(-50%);max-width:calc(100% - 24px);padding:5px 12px;border:2px solid #d2b676;box-shadow:3px 3px #130e20;background:#281b2bef;color:#ffdda0;font-size:13px;line-height:20px;white-space:normal;text-align:center;z-index:40;pointer-events:none}
+.player-impact-frame{position:absolute;inset:0;z-index:35;pointer-events:none;border:8px solid #7fc7f077;box-shadow:inset 0 0 0 4px #163c6c88;animation:impact-border-v18 .38s steps(5) both}
+.player-impact-frame.health{border-color:#e14a6488;box-shadow:inset 0 0 0 4px #85254388}
+.player-impact-frame.armor-broken:after{content:'';position:absolute;left:32%;top:29%;width:7px;height:7px;background:#b4ecff;box-shadow:23px -20px #67bdea,66px 8px #b4ecff,95px -12px #67bdea,129px 22px #d7f3ff;animation:shield-shards-v18 .38s steps(6) both}
+.player-impact-symbol{position:absolute;left:50%;top:38%;width:88px;height:88px;transform:translate(-50%,-50%);z-index:38;pointer-events:none;animation:impact-symbol-v18 .38s steps(5) both}
+.player-impact-symbol svg{width:100%;height:100%;image-rendering:pixelated}
+.player-impact-symbol.health{width:104px;left:52%}
+.player-impact-symbol.broken{animation:shield-break-v18 .38s steps(6) both}
+.player-impact-number{position:fixed;z-index:1100;max-width:160px;padding:5px 8px;border:2px solid #77bbdc;box-shadow:3px 3px #100c1c;background:#142f43;color:#d8f8ff;pointer-events:none;font-size:14px;line-height:20px;white-space:normal;animation:impact-number-v18 .38s steps(6) both}
+.player-impact-number.health{color:#fff0df;border-color:#ff8090;background:#61273b}
+.player-impact-number.revive{color:#fff1a8;border-color:#ecd590;background:#58402c}
+.player-health-hit{filter:brightness(1.6);outline:3px solid #f57488;outline-offset:3px}
+.player-armor-hit{color:#c5efff;filter:brightness(1.8);outline:3px solid #83cdf5;outline-offset:2px}
+.player-revived{filter:brightness(1.7);outline:3px solid #ffe6a2}
+@keyframes impact-border-v18{0%,25%{opacity:1}100%{opacity:0}}
+@keyframes impact-symbol-v18{0%{opacity:1;scale:.75}25%{scale:1.15}100%{opacity:0;scale:1}}
+@keyframes shield-break-v18{0%{opacity:1;scale:1}35%{scale:1.2;translate:0 3px}100%{opacity:0;scale:.85;translate:0 18px}}
+@keyframes shield-shards-v18{to{translate:0 30px;opacity:0}}
+@keyframes impact-number-v18{0%,30%{translate:0 0;opacity:1}100%{translate:0 -14px;opacity:.35}}
+@media(max-width:760px){
+ .enemy-action-banner{top:28px;font-size:11px;line-height:15px;padding:3px 6px}.player-impact-symbol{width:62px;height:62px;top:29%}.player-impact-symbol.health{width:74px}.player-impact-number{font-size:12px;line-height:16px;max-width:135px}
+ #combat-screen .player-panel{display:grid;grid-template-columns:54px 36px minmax(48px,1fr) 86px 42px;align-items:center;gap:4px;padding:6px;overflow:visible}
+ #combat-screen .player-panel>.vital{grid-column:1;grid-row:1;min-width:0;width:54px;margin:0}
+ #combat-screen .player-panel .vital>div:first-child{width:52px;height:57px}
+ #combat-screen .player-panel .vital strong{font-size:16px}#combat-screen .player-panel .vital strong small{font-size:10px}
+ #combat-screen .player-panel>.resource-grid{grid-column:2;grid-row:1;min-width:0;width:auto;padding:0}
+ #combat-screen .player-panel>.resource-grid>div{flex-direction:column;gap:0}
+ #combat-screen .player-panel>.resource-grid small{font-size:8px}#combat-screen .player-panel>.resource-grid strong{font-size:16px}
+ #combat-screen .player-panel>.bonus-tiles{grid-column:3;grid-row:1;grid-template-columns:1fr;min-width:0;width:100%;max-height:60px;overflow:auto;gap:2px;margin:0}
+ #combat-screen .player-panel .bonus-tile{padding:1px;min-width:0;min-height:26px;grid-template-columns:14px 1fr;font-size:9px}
+ #combat-screen .player-panel .bonus-tile svg{width:12px;height:12px}#combat-screen .player-panel .bonus-tile b{font-size:10px}#combat-screen .player-panel .bonus-tile small{font-size:8px;line-height:10px}
+ #combat-screen .player-panel>.chain-panel{grid-column:4;grid-row:1;min-width:0;width:auto;padding:2px;margin:0}
+ #combat-screen .player-panel>.chain-panel p{font-size:9px;line-height:12px;margin:2px 0 0}#combat-screen .player-panel>.chain-panel strong{font-size:16px}
+ #combat-screen .player-panel>.rail-pile{grid-column:5;grid-row:1;min-width:0;width:42px;margin:0}
+}
+@media(prefers-reduced-motion:reduce){.player-impact-frame,.player-impact-symbol{display:none}.player-impact-number{animation:none}.player-health-hit,.player-armor-hit,.player-revived{filter:none}}

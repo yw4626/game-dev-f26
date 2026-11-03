@@ -1,0 +1,242 @@
+[
+  {
+    "file": "full-final-v1-full-scripted/full-final-antonio-1.jsonl",
+    "decisions": 323,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "game_won",
+      "success": true,
+      "score": 9510,
+      "floor": 5,
+      "health": 50,
+      "wins": 25,
+      "kills": 584,
+      "level": 9,
+      "steps": 636,
+      "decisions": 323,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "game_won",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-full-scripted/full-final-antonio-2.jsonl",
+    "decisions": 323,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "game_won",
+      "success": true,
+      "score": 9510,
+      "floor": 5,
+      "health": 50,
+      "wins": 25,
+      "kills": 584,
+      "level": 9,
+      "steps": 636,
+      "decisions": 323,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "game_won",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-full-scripted/full-final-arca-1.jsonl",
+    "decisions": 322,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "game_won",
+      "success": true,
+      "score": 10085,
+      "floor": 5,
+      "health": 27,
+      "wins": 28,
+      "kills": 639,
+      "level": 9,
+      "steps": 711,
+      "decisions": 322,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "game_won",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-full-scripted/full-final-arca-2.jsonl",
+    "decisions": 322,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "game_won",
+      "success": true,
+      "score": 10085,
+      "floor": 5,
+      "health": 27,
+      "wins": 28,
+      "kills": 639,
+      "level": 9,
+      "steps": 711,
+      "decisions": 322,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "game_won",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-full-scripted/full-final-imelda-1.jsonl",
+    "decisions": 317,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "game_won",
+      "success": true,
+      "score": 8300,
+      "floor": 5,
+      "health": 50,
+      "wins": 20,
+      "kills": 434,
+      "level": 13,
+      "steps": 620,
+      "decisions": 317,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "game_won",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-full-scripted/full-final-imelda-2.jsonl",
+    "decisions": 317,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "game_won",
+      "success": true,
+      "score": 8300,
+      "floor": 5,
+      "health": 50,
+      "wins": 20,
+      "kills": 434,
+      "level": 13,
+      "steps": 620,
+      "decisions": 317,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "game_won",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-memory-scripted/full-final-antonio-1-stateful-public-history.jsonl",
+    "decisions": 76,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "goal_reached",
+      "success": true,
+      "score": 1990,
+      "floor": 2,
+      "health": 52,
+      "wins": 5,
+      "kills": 90,
+      "level": 4,
+      "steps": 103,
+      "decisions": 76,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "goal_reached",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-memory-scripted/full-final-antonio-2-stateful-public-history.jsonl",
+    "decisions": 76,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "goal_reached",
+      "success": true,
+      "score": 1990,
+      "floor": 2,
+      "health": 52,
+      "wins": 5,
+      "kills": 90,
+      "level": 4,
+      "steps": 103,
+      "decisions": 76,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "goal_reached",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-memory-scripted/full-final-arca-1-stateful-public-history.jsonl",
+    "decisions": 92,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "goal_reached",
+      "success": true,
+      "score": 1990,
+      "floor": 2,
+      "health": 44,
+      "wins": 5,
+      "kills": 90,
+      "level": 4,
+      "steps": 150,
+      "decisions": 92,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "goal_reached",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-memory-scripted/full-final-arca-2-stateful-public-history.jsonl",
+    "decisions": 92,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "goal_reached",
+      "success": true,
+      "score": 1990,
+      "floor": 2,
+      "health": 44,
+      "wins": 5,
+      "kills": 90,
+      "level": 4,
+      "steps": 150,
+      "decisions": 92,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "goal_reached",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-memory-scripted/full-final-imelda-1-stateful-public-history.jsonl",
+    "decisions": 95,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "goal_reached",
+      "success": true,
+      "score": 2020,
+      "floor": 2,
+      "health": 44,
+      "wins": 5,
+      "kills": 90,
+      "level": 7,
+      "steps": 133,
+      "decisions": 95,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "goal_reached",
+    "live": false
+  },
+  {
+    "file": "full-final-v1-memory-scripted/full-final-imelda-2-stateful-public-history.jsonl",
+    "decisions": 95,
+    "engineOutcome": {
+      "terminal": true,
+      "reason": "goal_reached",
+      "success": true,
+      "score": 2020,
+      "floor": 2,
+      "health": 44,
+      "wins": 5,
+      "kills": 90,
+      "level": 7,
+      "steps": 133,
+      "decisions": 95,
+      "invalidActions": 0
+    },
+    "recordedOutcome": "goal_reached",
+    "live": false
+  }
+]

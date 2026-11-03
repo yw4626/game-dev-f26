@@ -1,0 +1,75 @@
+/* Perspective queues: keep combat columns, show depth without duplicating labels. */
+#combat-screen #enemies{--formation-readout:72px;display:block;position:absolute;left:12px;right:12px;top:62px;bottom:auto;height:clamp(180px,calc(100% - var(--card-height) - 169px),350px);padding:0;transform:none;pointer-events:none;overflow:visible}
+#combat-screen #enemies>.enemy{position:absolute;left:var(--formation-x);bottom:0;width:calc(100% / var(--enemy-columns) - 6px);min-width:0;max-width:none;height:100%;padding:0;border:0;background:none;display:block;transform:translateX(-50%);z-index:calc(10 - var(--formation-depth));pointer-events:none;transition:none;opacity:1;filter:none}
+#combat-screen #enemies .enemy-art{position:absolute;left:50%;bottom:var(--formation-readout);width:min(100%,190px);max-width:none;height:calc(100% - var(--formation-readout) - 8px)!important;max-height:220px!important;min-height:0;margin:0!important;object-fit:contain;transform:translateX(-50%);transform-origin:50% 100%;filter:none;image-rendering:pixelated;pointer-events:auto}
+#combat-screen #enemies .boss-enemy .enemy-art{width:min(125%,240px);max-height:260px!important;height:calc(100% - var(--formation-readout) + 15px)!important}
+#combat-screen #enemies .reserve-enemy .enemy-art{width:min(80%,145px);bottom:calc(var(--formation-readout) + 52px);height:calc(66% - 15px)!important;max-height:168px!important;filter:brightness(.78) saturate(.78);opacity:.95}
+#combat-screen #enemies .reserve-enemy.boss-enemy .enemy-art{width:min(100%,190px);max-height:210px!important;height:calc(78% - 15px)!important}
+#combat-screen #enemies .enemy[data-depth="2"] .enemy-art{width:min(61%,112px);bottom:calc(var(--formation-readout) + 92px);height:calc(45% - 8px)!important;max-height:126px!important;filter:brightness(.56) saturate(.7)}
+#combat-screen #enemies .enemy[data-depth="2"].boss-enemy .enemy-art{width:min(80%,150px);max-height:154px!important}
+#combat-screen #enemies .enemy-readout{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:min(100%,158px);min-height:0;height:var(--formation-readout);padding:3px 4px;box-sizing:border-box;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:0;background:#171220e8;border:1px solid #63526e;box-shadow:2px 2px #100c18;text-align:center;pointer-events:auto;z-index:4;overflow:hidden}
+#combat-screen #enemies .boss-enemy .enemy-readout{border-color:#cbb565;background:#332331ed}
+#combat-screen #enemies .enemy-name{order:0;font-size:12px;line-height:15px;min-height:15px;margin:0!important;padding:0;letter-spacing:0;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;max-width:100%}
+#combat-screen #enemies .enemy-stats{order:1;display:flex;flex-wrap:nowrap;justify-content:center;gap:5px;line-height:14px;font-size:12px;padding:0;min-height:14px;background:none;white-space:nowrap}
+#combat-screen #enemies .enemy-stats small,#combat-screen #enemies .enemy-armor{font-size:12px;line-height:14px}
+#combat-screen #enemies .bar{order:2;height:4px;min-height:4px;margin:2px 0;width:100%}
+#combat-screen #enemies .intent{order:3;display:flex;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:center;gap:3px;min-height:15px;line-height:15px;padding:0;border:0;margin:0;max-width:100%;font-size:12px;letter-spacing:0;white-space:nowrap;background:none;overflow:hidden}
+#combat-screen #enemies .intent>span{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;max-width:100%}
+.reserve-marker,.reserve-count{position:absolute;z-index:3;font-size:12px;line-height:16px;border:1px solid #675879;color:#baa6c9;background:#171220c9;pointer-events:none}
+.reserve-marker{left:52%;bottom:calc(var(--formation-readout) + 175px);min-width:16px;text-align:center;opacity:.7}
+[data-depth="2"]>.reserve-marker{bottom:calc(var(--formation-readout) + 211px);font-size:10px;opacity:.5}
+.reserve-count{right:9%;bottom:calc(var(--formation-readout) + 9px);padding:0 3px;color:#ead59f;border-color:#9d8754;background:#231b2de8}
+#combat-screen #enemies .fallen-enemy{z-index:13;animation:enemy-fall-v12 .34s steps(5) forwards}
+#combat-screen #enemies .fallen-enemy .enemy-art{filter:brightness(1.5) saturate(.4)}
+#combat-screen #enemies .enemy-advancing .enemy-art{animation:enemy-advance-v12 .38s steps(6) both}
+#combat-screen #enemies .enemy-advancing .enemy-readout{animation:readout-advance-v12 .38s steps(4) both}
+#combat-screen #enemies .enemy.damage-flash .enemy-art{animation:enemy-hit-v12 .22s steps(3) both}
+@keyframes enemy-hit-v12{0%{transform:translateX(calc(-50% + 5px));filter:brightness(2)}50%{transform:translateX(calc(-50% - 4px));filter:brightness(1.6)}100%{transform:translateX(-50%);filter:none}}
+@keyframes enemy-advance-v12{from{transform:translate(-50%,-45px) scale(.76);filter:brightness(.75)}to{transform:translateX(-50%) scale(1);filter:brightness(1)}}
+@keyframes readout-advance-v12{0%,30%{opacity:0}100%{opacity:1}}
+@keyframes enemy-fall-v12{0%{opacity:1}100%{opacity:0;translate:0 18px}}
+#combat-screen .arena-top{gap:8px;padding-left:12px;padding-right:12px}
+#combat-screen #enemies-left{font-size:12px;line-height:16px;color:#cfb98a;white-space:normal;text-align:right}
+#combat-screen .arena-bottom{pointer-events:none}
+/* Overlapping hands must stay opaque, including while the engine is resolving. */
+#combat-screen #hand .game-card[aria-disabled="true"]{opacity:1}
+#combat-screen .hand-section>.cast-ribbon{position:absolute;inset:0 8px auto;z-index:30;margin:0;padding:7px 10px;min-height:30px;box-sizing:border-box}
+.game-card.attack .card-description{padding:0;justify-content:center;height:72px;min-height:72px;max-height:72px;flex:none}
+.game-card.attack .effect-main{line-height:24px!important}
+.game-card.attack .effect-main b{line-height:24px}
+.game-card.attack .effect-main small{font-size:12px!important;line-height:12px!important;margin-top:1px}
+.game-card.attack .effect-total{font-size:12px!important;line-height:12px!important;margin-top:2px}
+.game-card.attack .effect-total b{font-size:12px;line-height:12px}
+.boundary-burst{position:absolute;z-index:15;pointer-events:none;left:var(--burst-x);top:var(--burst-y);width:34px;height:34px;transform:translate(-50%,-50%);border:5px solid #f9d389;box-shadow:0 0 0 4px #d96c6b,0 0 0 8px #70427a;animation:boundary-burst-v12 .45s steps(5) both}
+.boundary-burst:after{content:'';position:absolute;inset:5px;background:#e8ecfa;box-shadow:0 0 0 5px #f0a260}
+@keyframes boundary-burst-v12{from{scale:.4;opacity:1;rotate:0deg}to{scale:1.7;opacity:0;rotate:90deg}}
+#combat-screen #enemies .impact-number{z-index:20;max-width:calc(100% + 50px);font-size:20px;line-height:24px;padding:2px 4px;top:35%}
+#combat-screen #enemies .impact-number.explosion{background:#47223fe8;border-color:#f1b86f;color:#ffe8a4}
+#combat-screen #enemies .impact-number.splash{background:#1a334de8;border-color:#6ebdcf;color:#baf4ff;font-size:16px}
+#combat-screen #enemies .impact-number[data-depth="1"]{font-size:14px;line-height:18px}
+#combat-screen #enemies .impact-number[data-depth="2"]{font-size:12px;line-height:16px}
+.attack-vfx.splash .impact-ring{border-color:#83dfef;width:40%;left:30%}
+.attack-vfx.splash i{background:#9aeafb;box-shadow:0 3px #398aaf;left:25%;top:30%;width:7px;height:7px;animation:splash-v12 .35s steps(5) both}
+.attack-vfx.splash i:nth-child(2){left:70%;top:45%;animation-delay:.04s}.attack-vfx.splash i:nth-child(3){left:50%;top:65%;animation-delay:.08s}
+@keyframes splash-v12{from{transform:translateY(8px);opacity:1}to{transform:translateY(-18px);opacity:0}}
+@media(min-width:761px) and (max-height:800px){#combat-screen{min-height:760px}#combat-screen #enemies{top:52px;height:clamp(150px,calc(100% - var(--card-height) - 160px),290px);--formation-readout:68px}#combat-screen #enemies .enemy-art{max-height:175px!important}#combat-screen #enemies .reserve-enemy .enemy-art{bottom:calc(var(--formation-readout) + 34px);max-height:128px!important}#combat-screen #enemies .enemy[data-depth="2"] .enemy-art{bottom:calc(var(--formation-readout) + 62px);max-height:100px!important}.reserve-marker{bottom:calc(var(--formation-readout) + 128px)}[data-depth="2"]>.reserve-marker{bottom:calc(var(--formation-readout) + 154px)}}
+@media(max-width:1000px){#combat-screen #enemies .enemy-stats small{display:none}#combat-screen #enemies .enemy-readout{padding-left:2px;padding-right:2px}}
+@media(max-width:760px){
+  #combat-screen #enemies{left:5px;right:5px;top:28px;height:202px;--formation-readout:64px}
+  #combat-screen #enemies>.enemy{width:calc(100% / var(--enemy-columns) - 3px)}
+  #combat-screen #enemies .enemy-art{width:min(116%,98px);max-height:135px!important;height:calc(100% - var(--formation-readout))!important}
+  #combat-screen #enemies .boss-enemy .enemy-art{width:min(150%,130px);max-height:156px!important}
+  #combat-screen #enemies .reserve-enemy .enemy-art{width:min(83%,72px);bottom:calc(var(--formation-readout) + 33px);height:90px!important;max-height:90px!important}
+  #combat-screen #enemies .enemy[data-depth="2"] .enemy-art{width:min(65%,58px);bottom:calc(var(--formation-readout) + 59px);height:66px!important;max-height:66px!important}
+  #combat-screen #enemies .enemy-name{font-size:10px;line-height:14px;min-height:14px}
+  #combat-screen #enemies .enemy-stats,#combat-screen #enemies .enemy-armor{font-size:10px;line-height:12px;gap:3px;min-height:12px}
+  #combat-screen #enemies .intent{font-size:10px;line-height:12px;min-height:12px}
+  #combat-screen #enemies .intent>span{font-size:10px}
+  .reserve-marker{bottom:calc(var(--formation-readout) + 110px);font-size:10px;line-height:12px;min-width:12px}
+  [data-depth="2"]>.reserve-marker{bottom:calc(var(--formation-readout) + 122px)}
+  .reserve-count{right:0;font-size:10px;line-height:12px;bottom:calc(var(--formation-readout) + 5px);padding:0 2px}
+  #combat-screen .arena-top{margin-top:0;padding:5px 7px;font-size:10px;line-height:14px}
+  #combat-screen #enemies-left{font-size:10px;line-height:14px}
+  #combat-screen #enemies .impact-number{font-size:12px;line-height:15px;padding:2px}
+}
+@media(prefers-reduced-motion:reduce){#combat-screen #enemies .enemy-advancing .enemy-art,#combat-screen #enemies .enemy-advancing .enemy-readout,#combat-screen #enemies .fallen-enemy{animation:none}#combat-screen #enemies .enemy.damage-flash,#combat-screen #enemies .enemy.damage-flash .enemy-art{transform:translateX(-50%)!important}.boundary-burst{animation:none;opacity:.8}.fallen-enemy{display:none!important}}

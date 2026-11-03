@@ -1,0 +1,14 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "temperature": 0.2,
+  "maxOutputTokens": 2048,
+  "budgetUSD": 2,
+  "pricing": {
+    "date": "2026-10-31",
+    "source": "https://ai.google.dev/gemini-api/docs/pricing",
+    "inputPerMillionUSD": 0.30,
+    "outputPerMillionUSD": 2.50,
+    "note": "Standard paid Developer API list prices, including thinking output. Free-tier invoices may be zero. Recheck prices and model availability before running. Vertex users must supply Vertex prices instead."
+  }
+}

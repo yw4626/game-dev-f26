@@ -1,0 +1,13 @@
+{
+  "before": {
+    "median": 175.76479999999992,
+    "p95": 228.1333999999997,
+    "allocations": 1
+  },
+  "after": {
+    "median": 87.48300000000017,
+    "p95": 97.51020000000062,
+    "allocations": 1
+  },
+  "identicalFrames": true
+}

@@ -1,0 +1,5 @@
+agents/*.local.json
+.env
+.env.*
+!.env.example
+node_modules/

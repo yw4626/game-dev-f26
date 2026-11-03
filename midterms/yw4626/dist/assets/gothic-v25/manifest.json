@@ -1,0 +1,505 @@
+{
+  "generator": "built-in image_gen",
+  "sharedPalette": [
+    "#0c0d13",
+    "#17171d",
+    "#232229",
+    "#303039",
+    "#40414a",
+    "#535660",
+    "#6a6d73",
+    "#85868a",
+    "#a7a69f",
+    "#c9c3af",
+    "#e0d7bc",
+    "#292621",
+    "#3c352b",
+    "#514738",
+    "#695b46",
+    "#837057",
+    "#a28c68",
+    "#242a23",
+    "#343b2c",
+    "#4a5139",
+    "#646b46",
+    "#802e37",
+    "#4c202a",
+    "#642631",
+    "#9b4944",
+    "#bf6950",
+    "#57382e",
+    "#784936",
+    "#ab7046",
+    "#cea463",
+    "#5c4b5e",
+    "#817083"
+  ],
+  "roles": [
+    {
+      "name": "gardenLeaf",
+      "source": "monsters-generated.png",
+      "crop": [
+        0,
+        0,
+        229,
+        258
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "gardenBloom",
+      "source": "monsters-generated.png",
+      "crop": [
+        229,
+        0,
+        457,
+        258
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "gardenBeetle",
+      "source": "monsters-generated.png",
+      "crop": [
+        457,
+        0,
+        684,
+        258
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "gardenBud",
+      "source": "monsters-generated.png",
+      "crop": [
+        684,
+        0,
+        910,
+        258
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "gardenShrub",
+      "source": "monsters-generated.png",
+      "crop": [
+        910,
+        0,
+        1145,
+        258
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "bossPlant",
+      "source": "monsters-generated.png",
+      "crop": [
+        1145,
+        0,
+        1374,
+        258
+      ],
+      "canvas": [
+        96,
+        96
+      ],
+      "maxExtent": 86
+    },
+    {
+      "name": "libraryBook",
+      "source": "monsters-generated.png",
+      "crop": [
+        0,
+        258,
+        225,
+        497
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "libraryCandle",
+      "source": "monsters-generated.png",
+      "crop": [
+        225,
+        258,
+        457,
+        497
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "libraryWisp",
+      "source": "monsters-generated.png",
+      "crop": [
+        457,
+        258,
+        685,
+        497
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "libraryArmor",
+      "source": "monsters-generated.png",
+      "crop": [
+        685,
+        258,
+        902,
+        497
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "librarySpirit",
+      "source": "monsters-generated.png",
+      "crop": [
+        902,
+        258,
+        1105,
+        497
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "bossBook",
+      "source": "monsters-generated.png",
+      "crop": [
+        1105,
+        258,
+        1374,
+        480
+      ],
+      "canvas": [
+        96,
+        96
+      ],
+      "maxExtent": 86
+    },
+    {
+      "name": "cellarRat",
+      "source": "monsters-generated.png",
+      "crop": [
+        0,
+        497,
+        225,
+        687
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "cellarBug",
+      "source": "monsters-generated.png",
+      "crop": [
+        225,
+        497,
+        450,
+        687
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "cellarSpider",
+      "source": "monsters-generated.png",
+      "crop": [
+        450,
+        497,
+        658,
+        687
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "cellarSnail",
+      "source": "monsters-generated.png",
+      "crop": [
+        658,
+        497,
+        904,
+        687
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "cellarSludge",
+      "source": "monsters-generated.png",
+      "crop": [
+        904,
+        497,
+        1118,
+        687
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "bossRat",
+      "source": "monsters-generated.png",
+      "crop": [
+        1118,
+        480,
+        1374,
+        687
+      ],
+      "canvas": [
+        96,
+        96
+      ],
+      "maxExtent": 86
+    },
+    {
+      "name": "prisonGuard",
+      "source": "monsters-generated.png",
+      "crop": [
+        0,
+        687,
+        225,
+        917
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "prisonConvict",
+      "source": "monsters-generated.png",
+      "crop": [
+        225,
+        687,
+        451,
+        917
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "prisonRogue",
+      "source": "monsters-generated.png",
+      "crop": [
+        451,
+        687,
+        680,
+        917
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "prisonDemon",
+      "source": "monsters-generated.png",
+      "crop": [
+        680,
+        687,
+        904,
+        917
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "prisonGolem",
+      "source": "monsters-generated.png",
+      "crop": [
+        904,
+        687,
+        1118,
+        917
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "bossPrisoner",
+      "source": "monsters-generated.png",
+      "crop": [
+        1118,
+        687,
+        1374,
+        904
+      ],
+      "canvas": [
+        96,
+        96
+      ],
+      "maxExtent": 86
+    },
+    {
+      "name": "sanctumBat",
+      "source": "monsters-generated.png",
+      "crop": [
+        0,
+        917,
+        245,
+        1145
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "sanctumWraith",
+      "source": "monsters-generated.png",
+      "crop": [
+        245,
+        917,
+        448,
+        1145
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "sanctumImp",
+      "source": "monsters-generated.png",
+      "crop": [
+        448,
+        917,
+        681,
+        1145
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "sanctumBone",
+      "source": "monsters-generated.png",
+      "crop": [
+        681,
+        917,
+        904,
+        1145
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "sanctumEye",
+      "source": "monsters-generated.png",
+      "crop": [
+        904,
+        917,
+        1118,
+        1145
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "maxExtent": 56
+    },
+    {
+      "name": "bossVampire",
+      "source": "monsters-generated.png",
+      "crop": [
+        1118,
+        904,
+        1374,
+        1145
+      ],
+      "canvas": [
+        96,
+        96
+      ],
+      "maxExtent": 86
+    }
+  ],
+  "aliases": {
+    "ghost": "libraryWisp",
+    "zombie": "prisonConvict",
+    "skeleton": "prisonGuard",
+    "bat": "sanctumBat",
+    "slime": "cellarSludge",
+    "golem": "prisonGolem",
+    "lion": "prisonGolem",
+    "bossLion": "bossPlant",
+    "bossWraith": "bossBook",
+    "bossDemon": "bossVampire"
+  },
+  "sourceHashes": {
+    "mansion-generated.png": "bb8e0541731d1006818f63498977895b4574875d25c3765de2c3b94d4b56dfd0",
+    "monsters-generated.png": "945aa225553c49edfd8e89d2545400f58c6e95f8a10fecc715c8edeaedebebe0"
+  }
+}

@@ -1,0 +1,24 @@
+.loot-fx{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:1000;image-rendering:pixelated}
+.loot-counter-arrival{animation:loot-counter-pulse .4s steps(5)}
+@keyframes loot-counter-pulse{0%,35%{color:#fff7c5;box-shadow:0 0 0 3px #eac55c;background:#58401d}100%{box-shadow:0 0 0 0 transparent}}
+#battle-xp .floor-track i{transition:width .22s steps(8)}
+#battle-xp.xp-arrival .floor-track{box-shadow:inset 0 0 0 3px #a2e9ff}
+.loot-readout{position:fixed;z-index:1001;pointer-events:none;padding:5px 9px;background:#17142b;border:2px solid #e7c46d;color:#fff0b2;font:16px 'Ark Pixel',monospace;animation:loot-readout .85s steps(10) both;white-space:nowrap}
+.loot-readout.xp{border-color:#63b9ff;color:#b2ecff}
+@keyframes loot-readout{0%{opacity:0;translate:0 8px}20%,75%{opacity:1}100%{opacity:0;translate:0 -12px}}
+@media(prefers-reduced-motion:reduce){.loot-counter-arrival,.loot-readout{animation:none}#battle-xp .floor-track i{transition:none}}
+@media(max-width:760px){
+  .reference-exploration{height:auto;grid-template-rows:auto auto auto}
+  .reference-exploration .explore-rail{min-width:0;display:grid;gap:6px;align-items:center}
+  .reference-exploration .rail-left{grid-template-columns:minmax(0,1fr) auto}
+  .reference-exploration .rail-left .rail-portrait,.reference-exploration .explore-rail .rail-title,.reference-exploration .rail-hint{display:none}
+  .reference-exploration .rail-left .bonus-tiles{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:3px}
+  .reference-exploration .rail-left .health-heart{grid-column:1;grid-row:2;width:54px;height:54px;min-width:0;margin:0;font-size:16px}
+  .reference-exploration .health-heart b{font-size:16px;line-height:1.1}.reference-exploration .health-heart small{font-size:9px;line-height:1.1}
+  .reference-exploration .rail-left>button{grid-column:2;grid-row:2;max-width:160px;min-width:0;margin:0}
+  .reference-exploration .rail-right{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) 64px}
+  .reference-exploration .rail-right .stat-tiles{min-width:0;width:100%;grid-column:1;grid-row:1/3}
+  .reference-exploration .rail-right .area-status{grid-column:2;grid-row:1/3;min-width:0;font-size:10px}
+  .reference-exploration .rail-right .mana-orb{grid-column:3;grid-row:1;width:64px;height:64px;margin:0}
+  .reference-exploration .rail-right .orb-caption{grid-column:3;grid-row:2;font-size:8px;margin:0}
+}

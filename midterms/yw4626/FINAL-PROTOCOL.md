@@ -1,0 +1,13 @@
+# Final evaluation protocol v1 — declared 2026-11-02
+
+Frozen starting cases are in agents/final-full-suite.json and agents/final-memory-suite.json. All are new seeds; Arca is held out from tuning. Do not tune policies after examining these results. Full scope: Antonio, Imelda, Arca x two trials, bounded six-step public history; six model and six script episodes. Memory scope: same three starts x two trials x no history / six-step history, twelve model and six script episodes. Script retains visited services from public observations in both comparisons.
+
+Use `node agents/final-evaluate.cjs` for baselines, then `node agents/final-evaluate.cjs --live --config agents/gemini.final.local.json`. Node 24, no npm dependencies. Copy vertex.example.json into the ignored local config, set your project, and authenticate with gcloud application-default credentials. Never put tokens in config. Final wrapper requires Vertex global gemini-3.5-flash-lite and applies a cumulative $10 estimate ceiling across both scopes. Each attempted request reserves conservative cost before network I/O; missing usage retains its reservation, including failures. Durable append journal survives restart. A partial trace or stale lock requires audit, not automatic rerun. Do not delete the ledger to obtain another budget.
+
+Limits and retry policy are copied unchanged from the corresponding historical suites: full runner retries documented transient failures; first-floor runner stops on transport failure. No hidden script fallback. Five-operation interface is unchanged. Clock deadlines include credential waiting; credential initialization before an episode has its own 45-second bound. Historical scripts remain for reproducibility and are not the final entry point.
+
+Prices checked 2026-11-02: https://cloud.google.com/model-garden/pricing ; global standard input $0.30/M, output including reasoning $2.50/M. Ledger estimates are conservative, not cloud invoices. Model version is also recorded on successful responses. Authentication preflight is not a successful model trial; the first actual decision establishes runtime availability.
+
+freeze.json records engine, interface, policy, prompt, adapter, runner and suites. Actual outcomes are append-preserved. Completed failures are not replaced. Engine fixes require a newly declared version and affected comparisons rerun without mixing results. Final traces use spectator-compatible top-level full-* directories. Replay validates public observations, legal actions, outcomes and terminal result fields.
+
+Status: final trials have not yet been reported. Historical EVALUATION.md and FULL_EVALUATION.md are development evidence, not current-version claims.

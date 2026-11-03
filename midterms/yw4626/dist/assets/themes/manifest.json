@@ -1,0 +1,175 @@
+[
+  {
+    "name": "gardenLeaf",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #7 Front Normal Color Palette.png",
+    "sha256": "4f811d931e01b4e7640628c33897831a38df5982a51dd03332961d35ebb99518",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "gardenBloom",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #8 Front Normal Color Palette.png",
+    "sha256": "a69f7bbd517086667f24a0ca4eb35d6096ab070e4b52dcd1dce0871c7aacc433",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "gardenBeetle",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #12 Front Normal Color Palette.png",
+    "sha256": "afb7cf37137bfecc263345b7769aea33a25bd58ad59667f305a102c80f7e00d3",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "gardenBud",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #17 Front Normal Color Palette.png",
+    "sha256": "350ffd4997cee605eea865d9003fc993f079f8ec538072f36fa7b13937ff15b7",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "gardenShrub",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #20 Front Normal Color Palette.png",
+    "sha256": "55aa562e84e20703c573ca533ccabef792355371b40f64968618e9aae7368b95",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "libraryCandle",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #22 Front Normal Color Palette.png",
+    "sha256": "2b5a0242717b058bd0ecbbacc2735c7851e1b693d49ff8730a7f43443d07ce72",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "libraryWisp",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #25 Front Normal Color Palette.png",
+    "sha256": "7778b0d07e4624f18d8a23e6fe48e83d438846299a66b2384d330003071b1106",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "libraryArmor",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #33 Front Normal Color Palette.png",
+    "sha256": "ebcd1275de8d8638fb43ab8aa2e0260a12db8a6fb1765e24071d1419c1e0469f",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "librarySpirit",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #40 Front Normal Color Palette.png",
+    "sha256": "3820671a7eca412c2ee506ced86fb18805968e74404e9a11323fc1638ca1ac9b",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "cellarRat",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #23 Front Normal Color Palette.png",
+    "sha256": "4a4a5660c46b631e2cf74e39b8cf50a3dedf78166b8118572a622936376aee50",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "cellarBug",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #45 Front Normal Color Palette.png",
+    "sha256": "12676d2bc952fc888724dba39c4e0a78c8aad178de65002165d1fc3c9fb44b56",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "cellarSpider",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #53 Front Normal Color Palette.png",
+    "sha256": "214f27867c2b727b3a8b7455913b4750ff5a27ba06d4f5139853555e70c05378",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "cellarSnail",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #21 Front Normal Color Palette.png",
+    "sha256": "4c496283ff9505b138fd4c98d0b32b8140e29313e066b39b4cf6f7d69bf2a360",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "cellarSludge",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #32 Front Normal Color Palette.png",
+    "sha256": "a8aaf5563b1e0d94db1f421ebf405c69c7e3e1d1c2fb3c2a07058c55ebbd5acc",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "prisonGolem",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #41 Front Normal Color Palette.png",
+    "sha256": "4170e8999d18bfa746c259bc6e5d02698b9a72f56157c741e4fadd5aef1fb510",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "sanctumBat",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #24 Front Normal Color Palette.png",
+    "sha256": "6ac692a1a55d4a06dc357a88c9ce2ae75ab803b225482b405dc1dca82423dae6",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "sanctumWraith",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #39 Front Normal Color Palette.png",
+    "sha256": "ab517f845d2fc1542f0eba2d46816943a5d281a97d005e589ff00e484c473caa",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "sanctumImp",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #13 Front Normal Color Palette.png",
+    "sha256": "50a19996468fcb0305541884c1cbd4e2c886dce38ba2aec027a4cdc983ce0c51",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "sanctumBone",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #49 Front Normal Color Palette.png",
+    "sha256": "49e0a1d15ce39f969b97b7c723ea897671e1d32596695fd54040f59426b96e72",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "sanctumEye",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #50 Front Normal Color Palette.png",
+    "sha256": "5b99bd7aa0f98f56beda090017691655635adf7fdc3b8ce26e726ab2f486fea7",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "bossPlant",
+    "source": "art-sources\\themes-v24\\sprite-0042.png",
+    "sha256": "4a312497d484e85c7cd8ff1e8bf8b7e4b9bf0e601d4fe17d47d0d17160e14e56",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "libraryBook",
+    "source": "art-sources\\themes-v24\\Book_0.png",
+    "sha256": "4a0a3d331cdb88a96848c53c72d0637d9c1741f5bfd3ef4eb792d6d017aa5f2f",
+    "changes": "edge-connected white canvas removal; transparent bounding-box crop"
+  },
+  {
+    "name": "bossRat",
+    "source": "art-sources\\themes-v24\\monsters\\50+ Monsters Pack 2D\\Monsters\\Normal Colors\\Monster #23 Front Normal Color Palette.png",
+    "sha256": "4a4a5660c46b631e2cf74e39b8cf50a3dedf78166b8118572a622936376aee50",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "prisonGuard",
+    "source": "art-sources\\tiny-dungeon\\Tiles\\tile_0096.png",
+    "sha256": "b8a0a9376c1c3398a059a1e3226e8f8d6839c1d73ac53ea37425340d762055fd",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "prisonConvict",
+    "source": "art-sources\\tiny-dungeon\\Tiles\\tile_0109.png",
+    "sha256": "f344d22151345f81fe1b95fdb03cf007747042670bda1540192c14853f35b94a",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "prisonRogue",
+    "source": "art-sources\\tiny-dungeon\\Tiles\\tile_0111.png",
+    "sha256": "8ecfc9b753e676a3cd1fcf2f8f98cc70c8e814f706f41a7e172508fe15156618",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "name": "prisonDemon",
+    "source": "art-sources\\tiny-dungeon\\Tiles\\tile_0110.png",
+    "sha256": "ca2d26579be3738be5abfb74cea388634e212fb991b84701deeda65da4780f1c",
+    "changes": "transparent bounding-box crop"
+  },
+  {
+    "authored": [
+      "bossVampire",
+      "bossPrisoner",
+      "mansionDoor"
+    ],
+    "derived": {
+      "bossBook": "Blue Book + authored magic pages",
+      "bossRat": "isaiah658 #23 + authored corruption growths"
+    }
+  }
+]

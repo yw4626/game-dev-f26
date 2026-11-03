@@ -1,0 +1,25 @@
+# TEMPLATE ONLY: replace YOUR_LOGIN, then place this single file at
+# .github/workflows/midterm-YOUR_LOGIN.yml in the COURSE repository.
+# Keep the complete project under midterms/YOUR_LOGIN/.
+name: midterm-YOUR_LOGIN
+on:
+  pull_request:
+    paths:
+      - 'midterms/YOUR_LOGIN/**'
+      - '.github/workflows/midterm-YOUR_LOGIN.yml'
+permissions:
+  contents: read
+jobs:
+  deterministic-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: midterms/YOUR_LOGIN
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm test
+      # Never run live API evaluation in secret-free course CI.

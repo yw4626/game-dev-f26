@@ -1,0 +1,38 @@
+/* A scrollable fan keeps the card frame fixed, even for twenty cards. */
+#hand{display:block;position:relative;box-sizing:border-box;height:calc(var(--card-height) + 66px);min-height:calc(var(--card-height) + 66px);padding:0;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#b79b55 #251d30;touch-action:pan-x;isolation:isolate}
+#hand .hand-fan{position:relative;min-width:100%;height:calc(var(--card-height) + 62px);margin:auto}
+#hand .game-card{position:absolute;left:var(--hand-x);top:5px;margin:0!important;z-index:var(--fan-order);transform-origin:50% 100%;transform:translateY(var(--fan-lift)) rotate(var(--fan-angle));transition:left .12s ease-out,transform .12s ease-out;cursor:pointer}
+#hand .game-card.is-inspected,#hand .game-card:focus-visible,#hand .game-card:hover{transform:translateY(var(--fan-lift)) rotate(var(--fan-angle));box-shadow:0 0 0 2px #f6d885,4px 6px #100c18}
+#hand .game-card[aria-disabled="true"]{filter:saturate(.55);opacity:.84;cursor:not-allowed}
+#hand .game-card[aria-disabled="true"].is-inspected{filter:none;opacity:1}
+#hand .game-card:focus-visible{outline:3px solid #bce6ec;outline-offset:2px}
+#hand .empty-hand{padding:50px 12px;min-height:170px}
+#combat-screen .hand-section{position:relative;min-width:0;overflow:visible;padding:0!important;z-index:8}
+/* The hand toolbar is intentionally hidden; cards retain keyboard, drag and scroll input. */
+#combat-screen .hand-toolbar{display:none}
+#combat-screen .hand-title{display:flex!important;gap:8px;align-items:center;flex-wrap:wrap;min-width:0}
+#combat-screen .hand-title h2,#combat-screen .hand-title p{font-size:12px;line-height:15px;margin:0}
+.hand-scroll-controls{display:flex;gap:4px;flex:none}.hand-scroll-controls button{font:inherit;font-size:16px;line-height:20px;min-width:28px;padding:0 3px;border:2px solid #92794a;background:#2b2234;color:#f0d58e}.hand-scroll-controls button:disabled{opacity:.35}
+#combat-screen .bottom-line{margin:2px 8px;font-size:10px}
+/* Recipe hints live outside the shared card frame. */
+.card-offer.evolution-ready>.game-card{border-color:#b1efa5!important;box-shadow:0 0 0 3px #47794d,5px 6px #11151c}
+.card-offer.evolution-ready>.card-action{border-color:#b1efa5;background:#294532;color:#e6f9d5}
+.card-offer.evolution-needsSocket>.game-card{border-color:#f0cb7d!important;box-shadow:0 0 0 3px #836431,5px 6px #17121a}
+.evolution-hint{border:2px solid #647b59;background:#1e3228;padding:8px;color:#e0f3c8;font-size:12px;line-height:1.45;overflow-wrap:anywhere;min-width:0}
+.evolution-hint strong{display:block;color:#c9ffab;font-size:13px;margin-bottom:4px}.evolution-hint p{font-size:12px!important;line-height:1.45!important;margin:5px 0!important;color:inherit}.evolution-hint small{display:block;font-size:11px;line-height:1.45;color:#b9cebb}
+.evolution-hint.needsSocket{border-color:#b08a45;background:#362c22;color:#f2dba5}.evolution-hint.needsSocket strong{color:#ffdc8b}
+.evolution-hint.progress{border-color:#655d75;background:#292434;color:#c6bdcf}.evolution-hint.progress strong{color:#d1c6df}
+.reward-recipe-legend{display:flex;gap:8px 20px;flex-wrap:wrap;margin:12px 0;color:#b7dd9d;font-size:12px}.reward-recipe-legend span:last-child{color:#edca85}
+@media(min-width:761px){#combat-screen{grid-template-rows:42px 1fr calc(var(--card-height) + 98px)}#combat-screen .hand-section{align-self:end}.hand-title p{max-width:100%}}
+@media(max-width:760px){#hand{width:100%;max-width:100%}#combat-screen .hand-section{grid-column:1/-1;max-width:100%}.hand-title p{font-size:11px!important}.card-offer .evolution-hint{font-size:12px}#combat-screen .bottom-line>span:last-child{display:none}}
+@media(max-width:760px){
+  #combat-screen{grid-template-rows:42px 80px 62px 240px auto;height:auto;min-height:0}
+  #combat-screen .combat-right{position:relative;inset:auto;grid-column:1;grid-row:3;width:100%;min-width:0;box-sizing:border-box;display:flex;flex-direction:row;align-items:center;justify-content:space-around;gap:8px;padding:3px;border:2px solid #60516f;background:#211b2a}
+  #combat-screen .combat-right .mana-resource{flex:none;width:48px;height:48px}
+  #combat-screen .combat-right .rail-pile{flex:none;width:54px;min-height:46px}
+  #combat-screen .combat-right #end-turn{position:static;inset:auto;flex:none;width:110px;min-height:44px;margin:0}
+  #combat-screen .arena{grid-row:4/6;min-height:600px}
+  #combat-screen .hand-section{grid-row:5}
+  #combat-screen #enemies{top:12px;height:214px;padding:5px 4px}
+}
+@media(prefers-reduced-motion:reduce){#hand .game-card{transition:none}}

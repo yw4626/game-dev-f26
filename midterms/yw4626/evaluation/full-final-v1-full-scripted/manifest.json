@@ -1,0 +1,75 @@
+{
+  "id": "final-v1-full-scripted",
+  "startedAt": "2026-11-03T00:25:11.750Z",
+  "kind": "scripted",
+  "suite": {
+    "id": "final-full-suite-v1-2026-11-02",
+    "scope": "Final v1: complete all five floors and defeat the vampire. Fresh seeds, six bounded-history model episodes and six matched scripted episodes. Historical trials remain separate.",
+    "profile": "demo",
+    "goalFloor": 6,
+    "stepLimit": 15000,
+    "decisionLimit": 6000,
+    "callLimit": 6500,
+    "episodeTimeoutMs": 14400000,
+    "callTimeoutMs": 30000,
+    "invalidLimit": 5,
+    "historyLength": 6,
+    "trials": 2,
+    "memoryModes": [
+      "bounded"
+    ],
+    "retry": {
+      "maxRetries": 4,
+      "initialDelayMs": 5000,
+      "maximumDelayMs": 60000,
+      "codes": [
+        "http_429",
+        "http_500",
+        "http_502",
+        "http_503",
+        "http_504",
+        "call_timeout"
+      ]
+    },
+    "cases": [
+      {
+        "id": "full-final-antonio",
+        "seed": "FINAL-20261102-A-841793",
+        "character": "antonio",
+        "split": "evaluation"
+      },
+      {
+        "id": "full-final-imelda",
+        "seed": "FINAL-20261102-B-592867",
+        "character": "imelda",
+        "split": "evaluation"
+      },
+      {
+        "id": "full-final-arca",
+        "seed": "FINAL-20261102-C-317429",
+        "character": "arca",
+        "split": "holdout"
+      }
+    ],
+    "repetitionWindow": 128,
+    "repetitionWarnAt": 4,
+    "repetitionLimit": 16,
+    "declaredBeforePolicyTuning": true
+  },
+  "config": null,
+  "hashes": {
+    "game": "69fa4dd304dec67165f2d9073afd11723bd0efd8f22dbe14604896b5983096a3",
+    "suite": "4811dcf6564145d2ad31b963d7df8afafffdc67db8e186a75aa4511066e126ad",
+    "interface": "88624466752a1c4cc83768aa111203412a13e85de564a9779eb97963c5db26b0",
+    "baseline": "6aae419435fc007a1c6d93c3443e60d75380f3b920e3ae781a2da9f23839bb7f",
+    "prompt": "575577d2885c96d2f592fbfe889ccd13dbdef8f20dd5267dca24593e24bb67e7",
+    "runner": "9e7cf316df2e6f78f47e836c85e3120769e9cbbe400f2d4571abb49e1d85a353",
+    "adapter": "200ed596ef023e9f98324fb7fcb6cee3b33474d6e15ee7a1cb4674906a932ccc"
+  },
+  "runnerHashes": {
+    "final-evaluate.cjs": "d2ff8b9a10124b15e927f86a1c9d0987702409d38cb111ae96ebd47c9c39e30f",
+    "full-evaluate.cjs": "a77f39e8b97decff0cc1843924046a945791ff5807598cf2cca411e413528a7f",
+    "progress-guard.cjs": "6f175549af67fda62c4498a3ce006a124082a998ce30d1dea88258fd327b84f6"
+  },
+  "gameVersion": "0.29.0"
+}

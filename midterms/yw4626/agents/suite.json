@@ -1,0 +1,22 @@
+{
+  "id": "midterm-v1-frozen-2026-10-31",
+  "declaredBeforePolicyTuning": true,
+  "scope": "Complete floor 1: explore, fight, choose rewards, defeat guardian and enter floor 2. The playable game remains five floors.",
+  "profile": "demo",
+  "goalFloor": 2,
+  "stepLimit": 1200,
+  "decisionLimit": 400,
+  "callLimit": 400,
+  "episodeTimeoutMs": 1800000,
+  "callTimeoutMs": 45000,
+  "invalidLimit": 5,
+  "historyLength": 6,
+  "trials": 2,
+  "memoryModes": ["none", "bounded"],
+  "developmentSeeds": ["AGENT-DEV-A", "AGENT-DEV-B"],
+  "cases": [
+    {"id":"garden-whip", "seed":"MIDTERM-2026-A-731", "character":"antonio", "split":"evaluation"},
+    {"id":"garden-mage", "seed":"MIDTERM-2026-B-947", "character":"imelda", "split":"evaluation"},
+    {"id":"garden-fire-holdout", "seed":"MIDTERM-2026-C-1261", "character":"arca", "split":"holdout"}
+  ]
+}

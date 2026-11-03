@@ -1,0 +1,16 @@
+/* Retire transform-based entrance rules: they displaced the whole formation by its height. */
+#combat-screen #enemies,#combat-screen .hand{animation:none}
+#combat-screen.encounter-preparing #enemies{visibility:hidden}
+#combat-screen.encounter-arrival #enemies{animation:encounter-reveal-v27 .22s ease-out both;filter:none}
+@keyframes encounter-reveal-v27{from{opacity:0}to{opacity:1}}
+#combat-screen #enemies .enemy-art{animation:none!important;transition:none!important}
+#combat-screen #enemies .enemy-idle{transform-box:fill-box;transform-origin:50% 100%;animation:enemy-breathe-v27 var(--idle-duration,2600ms) steps(8,end) var(--idle-delay,0ms) infinite}
+#combat-screen #enemies .enemy[data-idle="wings"] .enemy-idle{animation-name:enemy-wings-v27}
+#combat-screen #enemies .boss-enemy .enemy-idle{animation-name:enemy-heavy-v27}
+@keyframes enemy-breathe-v27{0%,100%{transform:scale(1,1)}50%{transform:scale(1.012,1.022)}}
+@keyframes enemy-wings-v27{0%,100%{transform:scale(1,1)}50%{transform:scale(1.035,.99)}}
+@keyframes enemy-heavy-v27{0%,100%{transform:scale(1,1)}50%{transform:scale(1.012,1.015)}}
+#combat-screen #enemies .enemy-hit .enemy-idle,#combat-screen #enemies .enemy-blocked .enemy-idle,#combat-screen #enemies .enemy-acting .enemy-idle,#combat-screen #enemies .enemy-guarding .enemy-idle,#combat-screen #enemies .enemy-dying .enemy-idle,#combat-screen #enemies .enemy-advancing .enemy-idle,#combat-screen #enemies .fallen-enemy .enemy-idle{animation:none;transform:none}
+#combat-screen #enemies .enemy[data-frozen="true"] .enemy-idle{animation-play-state:paused}
+.encounter-bridge{contain:strict;image-rendering:pixelated}
+@media(prefers-reduced-motion:reduce){#combat-screen #enemies .enemy-idle,#combat-screen.encounter-arrival #enemies{animation:none}}

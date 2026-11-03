@@ -1,0 +1,4 @@
+Starting full gemini full-final-antonio-1.jsonl
+full-final-antonio-1: F1, 50 decisions, HP 60, $0.0565
+full-final-antonio-1: F2, 100 decisions, HP 58, $0.1162
+full-final-antonio-1: F2, 150 decisions, HP 54, $0.1797
